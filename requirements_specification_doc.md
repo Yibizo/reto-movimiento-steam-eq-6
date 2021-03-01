@@ -1,4 +1,4 @@
-# Easy to use Template for Software Requirements Specification
+# Software Requirement Specifications
 Start with a descriptive and succinct name for your project. Change the above with the name of your project.
 
 # Table of content
