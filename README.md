@@ -1,4 +1,4 @@
-# reto Movimiento Steam
+# Reto Movimiento Steam
 
 Equipo:
 - Diego Mejía 
