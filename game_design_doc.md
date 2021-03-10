@@ -194,6 +194,11 @@ What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, spec
 
 ## Graphics Needed
 ```
+Main Character:
+![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Character/Gum%20Bot%20sprites.png?raw=true)
+```
+
+```
 1.	Characters
     a.	Human-like
         i.	Goblin (idle, walking, throwing)
