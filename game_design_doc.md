@@ -74,7 +74,7 @@ _(example)_
 ## Controls
 The player uses the arrow keys for up/down/left/right movement in the overworld, as well as navigation in the combat screen. To initiate input on the terminal, the player presses 'Tab'. After that, any text can be inputed, and with 'Enter' the player submits their answer.
 
-To access the pause menu, the player presses the 'Escape' key, and traverses it with the arrow keys previously established. To enter any option the player presses the 'Enter' key and to exit the 'Escape' key. 
+To access the pause menu, the player presses the 'Escape' key, and traverses it with the arrow keys previously established. To enter any option the player presses the 'Enter' key and to exit the 'Escape' key.
 
 ## Mechanics
 The main objective of the game is to exit every world by battling a boss in the end of said world, and in the process proving the player's coding skills and critical thinking. 
@@ -83,7 +83,12 @@ Player can move around the overworld in order to explore, with certain sections 
 
 No enemies can be seen in the overworld, thus no enemy behaviour can be found in the overworld. During combat, however, enemies	choose at random from a list of attacks. 
 
-Main mechanic consists of replacing simple turn based combat with simple and time based coding challenges. Puzzles are to be discussed
+The player, when entering combat, is given a terminal question according to the enemy's level, adjusting its difficulty accordingly. During the display of the timed terminal, the player can answer incorrectly and let the timer run out, thus recieving damage, or answering correctly and dealing damage.
+
+If the players health points reach zero, they die and they reload to previous save. But if the enemy's health points run out, they die and the player recieves experience points, thus advancing in level. 
+
+With all of this said, the main mechanic consists of replacing simple turn based combat with easy and time based debugging challenges.
+
 Are there any interesting mechanics? If so, how are you going to accomplish them? Physics, 
 algorithms, etc.
 
@@ -218,7 +223,7 @@ What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, spec
 ```
 _(example)_
 
-_(Note : If you’re soloing you might not need to define this part, as you can just use the Derived_ 
+_(Note : If you’re soloing you might not need to define this part, as you can just use the Derived_
 _Classes + Themes section as a reference. It’s up to you.)_
 
 
