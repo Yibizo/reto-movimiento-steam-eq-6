@@ -49,11 +49,23 @@ weak? Adventurous, or nervous? Hurried, or calm? How do you intend to provoke th
 
 ```
 1. Title Screen
-    a. Options
-2. Level Select
+    a. New Game
+    b. Load Game
+    c. Options
+    d. Credits
+    e. Exit
+2. File Select
 3. Game
-    a. Inventory
-    b. Assessment / Next Level
+    a. Pause Menu
+       a.1. Inventory
+       a.2. Save Game
+       a.3. Load Game
+       a.4. Options
+       a.5. Exit
+    c. Open Game World
+    d. Turn Based Combat
+       d.1. Actions Select
+       d.2. Terminal
 4. End Credits
 ```
 
