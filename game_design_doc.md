@@ -198,7 +198,7 @@ Main Character:</br>
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Character/Gum%20Bot%20sprites.png?raw=true)
 
 
-Tileset:</br>
+Tileset:</br></br>
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Tileset/scifitiles.png?raw=true)
 
 
