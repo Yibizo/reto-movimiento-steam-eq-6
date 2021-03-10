@@ -72,7 +72,9 @@ weak? Adventurous, or nervous? Hurried, or calm? How do you intend to provoke th
 _(example)_
 
 ## Controls
-Arrow key for up/down/left/right movement in the overworld, as well as navigation in the combat screen
+The player uses the arrow keys for up/down/left/right movement in the overworld, as well as navigation in the combat screen. To initiate input on the terminal, the player presses 'Tab'. After that, any text can be inputed, and with 'Enter' the player submits their answer.
+
+
 How will the player interact with the game? Will they be able to choose the controls? What kind of 
 in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
 
