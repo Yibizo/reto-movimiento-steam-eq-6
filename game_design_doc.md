@@ -1,4 +1,4 @@
-# Game Name Here
+# Into The Mainframe
 > Game Design Document
 
 # Table of Content
@@ -31,13 +31,15 @@
 # Game Design
 
 ## Summary
-Sum up your game idea in 2 sentences. A kind of elevator pitch. Keep it simple!
+We plan to make a top down view, pixelated, turn-based RPG in which you need to fight viruses infecting a computer. On top of a tutorial which will teach you the very basics of coding, the battles will be extremely simple debugging challenges, which will introduce a person to the world of Computer Science and Software Development in a fun and entertaining way.
 
 ## Gameplay
+Gameplay consists of 2 parts, overworld and combat. The main goal of the game is to reach the end of each world, and prove what has been learned throughout progression.
 What should the gameplay be like? What is the goal of the game, and what kind of obstacles are in 
 the way? What tactics should the player use to overcome them?
 
 ## Mindset
+We want to make the player feel smarter and more powerful as time goes on, to show how their skills have evolved since they first started.
 What kind of mindset do you want to provoke in the player? Do you want them to feel powerful, or 
 weak? Adventurous, or nervous? Hurried, or calm? How do you intend to provoke those emotions?
 
@@ -58,10 +60,12 @@ weak? Adventurous, or nervous? Hurried, or calm? How do you intend to provoke th
 _(example)_
 
 ## Controls
+Arrow key for up/down/left/right movement in the overworld, as well as navigation in the combat screen
 How will the player interact with the game? Will they be able to choose the controls? What kind of 
 in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
 
 ## Mechanics
+Main mechanic consists of replacing simple turn based combat with simple and time based coding challenges. Puzzles are to be discussed
 Are there any interesting mechanics? If so, how are you going to accomplish them? Physics, 
 algorithms, etc.
 
@@ -152,6 +156,11 @@ _(example)_
 # Graphics
 
 ## Style Attributes
+- no limited color palette
+- everything is done in pixel art style to remain consistent with solid black outlines
+- interactables throughout the overworld have a distinctive brightness to them
+
+
 What kinds of colors will you be using? Do you have a limited palette to work with? A post-processed HSV map/image? Consistency is key for immersion.
 
 What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, specifically? Solid, thick outlines with flat hues? Non-black outlines with limited tints/shades? Emphasize smooth curvatures over sharp angles? Describe a set of general rules depicting your style here.
