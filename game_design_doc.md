@@ -31,7 +31,9 @@
 # Game Design
 
 ## Summary
-Into the Mainframe is a top down view, pixelated, turn-based RPG in which you need to fight viruses infecting a computer. On top of a tutorial which will teach you the very basics of coding, the battles will be extremely simple debugging challenges, which will introduce a person to the world of Computer Science and Software Development in a fun and entertaining way.
+Into the Mainframe is a top down view, pixelated, turn-based RPG in which you, the player, get sucked in into your work computer and need to fight viruses infecting it. Advance your way through various computer worlds, while battling viruses and computer programs, in order to escape and free your computer from malicious malware along the way. 
+
+On top of a tutorial which will teach you the very basics of coding, the battles will be extremely simple debugging challenges, which will introduce the player to the world of Computer Science and Software Development in a fun and entertaining way.
 
 ## Gameplay
 Gameplay consists of 2 parts, overworld and combat. The main goal of the game is to reach the end of each world, and prove what has been learned throughout progression.
