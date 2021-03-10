@@ -77,6 +77,12 @@ The player uses the arrow keys for up/down/left/right movement in the overworld,
 To access the pause menu, the player presses the 'Escape' key, and traverses it with the arrow keys previously established. To enter any option the player presses the 'Enter' key and to exit the 'Escape' key. 
 
 ## Mechanics
+The main objective of the game is to exit every world by battling a boss in the end of said world, and in the process proving the player's coding skills and critical thinking. 
+
+Player can move around the overworld in order to explore, with certain sections triggering random encounters with enemies. During the overworld, the player can encounter NPC's that have dialogue, as well as rooms with objects that work in union as a puzzle.
+
+No enemies can be seen in the overworld, thus no enemy behaviour can be found in the overworld. During combat, however, enemies	choose at random from a list of attacks. 
+
 Main mechanic consists of replacing simple turn based combat with simple and time based coding challenges. Puzzles are to be discussed
 Are there any interesting mechanics? If so, how are you going to accomplish them? Physics, 
 algorithms, etc.
