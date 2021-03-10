@@ -76,10 +76,6 @@ The player uses the arrow keys for up/down/left/right movement in the overworld,
 
 To access the pause menu, the player presses the 'Escape' key, and traverses it with the arrow keys previously established. To enter any option the player presses the 'Enter' key and to exit the 'Escape' key. 
 
-
-How will the player interact with the game? Will they be able to choose the controls? What kind of 
-in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
-
 ## Mechanics
 Main mechanic consists of replacing simple turn based combat with simple and time based coding challenges. Puzzles are to be discussed
 Are there any interesting mechanics? If so, how are you going to accomplish them? Physics, 
