@@ -193,10 +193,10 @@ What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, spec
 	Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), are great for teaching the player how to play through trial and error, instead of scripting a lengthy tutorial. What kind of visual feedback are you going to use to let the player know they’re interacting with something? That they *can* interact with something?
 
 ## Graphics Needed
-```
+
 Main Character:
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Character/Gum%20Bot%20sprites.png?raw=true)
-```
+
 
 ```
 1.	Characters
