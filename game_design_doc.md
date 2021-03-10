@@ -74,6 +74,8 @@ _(example)_
 ## Controls
 The player uses the arrow keys for up/down/left/right movement in the overworld, as well as navigation in the combat screen. To initiate input on the terminal, the player presses 'Tab'. After that, any text can be inputed, and with 'Enter' the player submits their answer.
 
+To access the pause menu, the player presses the 'Escape' key, and traverses it with the arrow keys previously established. To enter any option the player presses the 'Enter' key and to exit the 'Escape' key. 
+
 
 How will the player interact with the game? Will they be able to choose the controls? What kind of 
 in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
