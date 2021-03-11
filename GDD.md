@@ -248,11 +248,11 @@ Enemies:\
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/ToasterBot/all.png?raw=true)
 
 
-Demo Layout:\
+Demo Layout:\\
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/Preview/tutorial_area.PNG?raw=true)
 
 
-Terminal View:\
+Terminal View:\\
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/Preview/terminal_view.PNG?raw=true)
 
 
