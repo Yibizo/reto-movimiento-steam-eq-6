@@ -86,7 +86,7 @@ Player can move around the overworld in order to explore, with certain sections 
 
 No enemies can be seen in the overworld, thus no enemy behaviour can be found in the overworld. During combat, however, enemies	choose at random from a list of attacks. 
 
-The player, when entering combat, is given a terminal question according to the enemy's level, adjusting its difficulty accordingly. During the display of the timed terminal, the player can answer incorrectly and let the timer run out, thus recieving damage, or answering correctly and dealing damage.
+The player, when entering combat, is given a console prompt where they can solve the given coding problem, adjusting its difficulty according to how far along the player is in the game. During the display of the timed terminal, the player can answer incorrectly and let the timer run out, thus recieving damage, or answer correctly to deal damage.
 
 If the players health points reach zero, they die and they reload to previous save. But if the enemy's health points run out, they die and the player recieves experience points, thus advancing in level. 
 
