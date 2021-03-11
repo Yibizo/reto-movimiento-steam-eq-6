@@ -44,13 +44,9 @@ The battles consist of extremely simple debugging and coding challenges, which w
 
 ## Gameplay
 Gameplay consists of 2 parts, overworld and combat. The main goal of the game is to reach the end of each world, and prove what has been learned throughout progression.
-What should the gameplay be like? What is the goal of the game, and what kind of obstacles are in 
-the way? What tactics should the player use to overcome them?
 
 ## Mindset
 We want to make the player feel smarter and more powerful as time goes on, to show how their skills have evolved since they first started.
-What kind of mindset do you want to provoke in the player? Do you want them to feel powerful, or 
-weak? Adventurous, or nervous? Hurried, or calm? How do you intend to provoke those emotions?
 
 # Technical
  
