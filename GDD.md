@@ -96,9 +96,6 @@ If the players health points reach zero, they die and they reload to previous sa
 
 With all of this said, the main mechanic consists of replacing simple turn based combat with easy and time based debugging challenges.
 
-Are there any interesting mechanics? If so, how are you going to accomplish them? Physics, 
-algorithms, etc.
-
 # Level Design
  (Note : These sections can safely be skipped if they’re not relevant, or you’d rather go about it another way. For most games, at least one of them should be useful. But I’ll understand if you don’t want to use them. It’ll only hurt my feelings a little bit.)
 
@@ -151,9 +148,8 @@ _(example)_
 ```
 1.	BasePhysics
     a.	BasePlayer
-    b.	BaseEnemy
     c.	BaseObject
-2.	BaseObstacle
+2.	BaseCollision
 3.	BaseInteractable
 ```
 _(example)_ 
@@ -190,13 +186,6 @@ _(example)_
 - everything is done in pixel art style to remain consistent
 - Characters utilize black outlines in order to stand put from the environment
 - interactables throughout the overworld have a distinctive style to them
-
-
-What kinds of colors will you be using? Do you have a limited palette to work with? A post-processed HSV map/image? Consistency is key for immersion.
-
-What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, specifically? Solid, thick outlines with flat hues? Non-black outlines with limited tints/shades? Emphasize smooth curvatures over sharp angles? Describe a set of general rules depicting your style here.
-
-	Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), are great for teaching the player how to play through trial and error, instead of scripting a lengthy tutorial. What kind of visual feedback are you going to use to let the player know they’re interacting with something? That they *can* interact with something?
 
 ## Graphics Needed
 
@@ -249,26 +238,12 @@ What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, spec
 ## Terminal View:</br>
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/Preview/terminal_view.PNG?raw=true)
 
-
-_(example)_
-
-_(Note : If you’re soloing you might not need to define this part, as you can just use the Derived_
-_Classes + Themes section as a reference. It’s up to you.)_
-
-
 # Sounds/Music
  
 ## Style Attributes
 - Audio effects consist of 8 bit / 16 bit
 - Audio effects are short and satisfyingly responsive
 - Music background has a consistent theme of machinery and industry
-
-
-Again, consistency is key. Define that consistency here. What kind of instruments do you want to use in your music? Any particular tempo, key? Influences, genre? Mood?
-
-Stylistically, what kind of sound effects are you looking for? Do you want to exaggerate actions with lengthy, cartoony sounds (e.g. mario’s jump), or use just enough to let the player know something happened (e.g. mega man’s landing)? Going for realism? You can use the music style as a bit of a reference too.
-	
-Remember, auditory feedback should stand out from the music and other sound effects so the player hears it well. Volume, panning, and frequency/pitch are all important aspects to consider in both music and sounds - so plan accordingly!
 
 ## Sounds Needed
 ```
@@ -291,7 +266,6 @@ Remember, auditory feedback should stand out from the music and other sound effe
     f.	Enemy Attack
     g.	Flee Noise
 ```
-_(example)_
 
 ## Music Needed
 ```
@@ -300,9 +274,6 @@ _(example)_
 3.	Fast-paced, combat music with same tones
 4.	Happy ending credits track
 ``` 
-_(example)_
-
-_(Note : Again, if you’re soloing you might be able to / want to skip this section. It’s up to you.)_
 
 # Schedule
  
@@ -337,5 +308,3 @@ c.	mind the pacing, let the player play between lessons
 6.	design sounds
 7.	design music
 ```
-_(example)_
-
