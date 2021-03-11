@@ -1,4 +1,4 @@
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Logo/logo_mainframe_white_text.png?raw=true)
+![alt text](videogame/Art/FinalArt/Logo/logo_mainframe_white_text.png?raw=true)
 > Game Design Document
 
 # Dream Team
