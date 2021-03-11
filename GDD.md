@@ -197,29 +197,29 @@ With all of this said, the main mechanic consists of replacing simple turn based
 ```
 
 ## Main Character:</br>
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Character/Gum%20Bot%20sprites.png?raw=true)
+![alt text](videogame/Art/FinalArt/Character/Gum%20Bot%20sprites.png?raw=true)
 
 
 ## Tileset:</br>
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Tileset/scifitiles.png?raw=true)
+![alt text](videogame/Art/FinalArt/Tileset/scifitiles.png?raw=true)
 
 
 ## Enemies:</br>
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/Zapper/attack.png?raw=true)
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/Zapper/damaged%20and%20death.png?raw=true)
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/Zapper/wake.png?raw=true)
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/BallChain/attack.png?raw=true)
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/BallChain/charge.png?raw=true)
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/BallChain/death.png?raw=true)\\
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/ToasterBot/all.png?raw=true)
+![alt text](videogame/Art/FinalArt/Enemies/Zapper/attack.png?raw=true)
+![alt text](videogame/Art/FinalArt/Enemies/Zapper/damaged%20and%20death.png?raw=true)
+![alt text](videogame/Art/FinalArt/Enemies/Zapper/wake.png?raw=true)
+![alt text](videogame/Art/FinalArt/Enemies/BallChain/attack.png?raw=true)
+![alt text](videogame/Art/FinalArt/Enemies/BallChain/charge.png?raw=true)
+![alt text](videogame/Art/FinalArt/Enemies/BallChain/death.png?raw=true)
+![alt text](videogame/Art/FinalArt/Enemies/ToasterBot/all.png?raw=true)
 
 
 ## Demo Layout:</br>
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/Preview/tutorial_area.PNG?raw=true)
+![alt text](videogame/Art/Preview/tutorial_area.PNG?raw=true)
 
 
 ## Battle System:</br>
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/Preview/battle_system.PNG?raw=true)
+![alt text](videogame/Art/Preview/battle_system.PNG?raw=true)
 
 # Sounds/Music
  
