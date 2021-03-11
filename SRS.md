@@ -41,10 +41,8 @@ Create a video game focused on inspiring vocations in STEM (Biotechnology, Agric
 The team's going to build a turn-based rpg with a focus on programming from scratch. Combat will be replaced with basic terminal problems and questions in order to explore said topic, as well as an overworld to promote critical-thinking. The videogame will be hosted within a webpage created by the team. Finally, user data and activity inside the videogame will be tracked, registered and displayed within the website to show the game's efficieny in terms of encouragement towards STEM vocations.
 
 ## User classes
-- External users: 
-- STEM members: 
-
-User classes and characteristics are critical. You’ll need to define who (different roles) is going to use the product and how. Don't forget to include each user needs.
+- External users: Any user interested in playing the game. They need to be able to acces the website, play the game and compare their player stats top others.
+- STEM members: Users that are focused on viewing player stats and evaluating whether or not the game achieved its goals. They need to be able to access the website and view player stats.
 
 ## Assumptions and Dependencies
 - We may not be able to develop the project until our professors teach us the subjects necessary for its evolution.
