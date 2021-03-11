@@ -268,7 +268,7 @@ _Classes + Themes section as a reference. It’s up to you.)_
 ## Style Attributes
 - Audio effects consist of 8 bit / 16 bit
 - Audio effects are short and satisfyingly responsive
-- Music background sound 8 bit / 16 bit, with a consistent theme of machinery and industry
+- Music background has a consistent theme of machinery and industry
 
 
 Again, consistency is key. Define that consistency here. What kind of instruments do you want to use in your music? Any particular tempo, key? Influences, genre? Mood?
