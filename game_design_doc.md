@@ -78,8 +78,6 @@ weak? Adventurous, or nervous? Hurried, or calm? How do you intend to provoke th
 4. End Credits
 ```
 
-_(example)_
-
 ## Controls
 The player uses the arrow keys for up/down/left/right movement in the overworld, as well as navigation in the combat screen. To initiate input on the terminal, the player presses 'Tab'. After that, any text can be inputed, and with 'Enter' the player submits their answer.
 
