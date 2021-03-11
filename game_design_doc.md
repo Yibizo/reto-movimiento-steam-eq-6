@@ -1,5 +1,12 @@
-# Into The Mainframe
+![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Logo/logo_mainframe.png?raw=true)
 > Game Design Document
+
+# Dream Team
+
+- Diego Mejía (A01024228)
+- Enrique Mondelli (A01379363)
+- Jorge Cabiedes (A01024053)
+- José Salgado (A01023661)
 
 # Table of Content
 
@@ -33,7 +40,7 @@
 ## Summary
 Into the Mainframe is a 2.5D, pixelated, turn-based RPG in which you, the player, get sucked in into your work computer and need to fight viruses infecting it. Advance your way through various computer worlds, while battling viruses and computer programs, in order to escape and free your computer from malicious malware along the way. 
 
-On top of a tutorial which will teach you the very basics of coding, the battles will be extremely simple debugging challenges, which will introduce the player to the world of Computer Science and Software Development in a fun and entertaining way.
+The battles consist of extremely simple debugging and coding challenges, which will introduce the player to the world of programming in a fun and entertaining way.
 
 ## Gameplay
 Gameplay consists of 2 parts, overworld and combat. The main goal of the game is to reach the end of each world, and prove what has been learned throughout progression.
