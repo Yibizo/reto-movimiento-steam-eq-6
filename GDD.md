@@ -202,33 +202,26 @@ What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, spec
 
 ```
 1.	Characters
-    a.	Human-like
-        i.	Goblin (idle, walking, throwing)
-        ii.	Guard (idle, walking, stabbing)
-        iii.	Prisoner (walking, running)
-    b.	Other
-        i.	Wolf (idle, walking, running)
-        ii.	Giant Rat (idle, scurrying)
+    a.	Main Character
+        i.	Gum Bot (idle, walking, encounter, combat, death)
+    b.	Enemies
+        i.	Virus (combat, death)
+	ii.	Bug (combat, death
 2.	Blocks
-    a.	Dirt
-    b.	Dirt/Grass
-    c.	Stone Block
-    d.	Stone Bricks
-    e.	Tiled Floor
-    f.	Weathered Stone Block
-    g.	Weathered Stone Bricks
+    a.	Metal
+    b.	Precaution Tiles
+    c.	Precaution Path
+    d.	Consoles (Non-Interactable)
+    e.	Circuits
 3.	Ambient
-    a.	Tall Grass
-    b.	Rodent (idle, scurrying)
-    c.	Torch
-    d.	Armored Suit
-    e.	Chains (matching Weathered Stone Bricks)
-    f.	Blood stains (matching Weathered Stone Bricks)
+    a.	Encounter Normal Metal
+    e.	Encounter Boss Metal
+    c.	Light Source
 4.	Other
-    a.	Chest
-    b.	Door (matching Stone Bricks)
+    a.	Consoles (Interactable)
+    b.	Button (On The Floor)
+    b.	Door
     c.	Gate
-    d.	Button (matching Weathered Stone Bricks)
 ```
 
 ## Main Character:</br>
