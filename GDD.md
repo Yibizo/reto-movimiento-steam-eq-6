@@ -97,31 +97,19 @@ With all of this said, the main mechanic consists of replacing simple turn based
 
 ## Themes
 ```
-1.	Forest
+1.	Circuits
     a.	Mood
-        i.	Dark, calm, foreboding
+        i.	Metallic, calm
     b.	Objects
         i.	Ambient
-            1.	Fireflies
-            2.	Beams of moonlight
-            3.	Tall grass
+            1.	Metallic tiles
+            2.	Sources of light
+            3.	Precaution tiles
         ii.	Interactive
-            1.	Wolves
-            2.	Goblins
-            3.	Rocks
-2.	Castle
-    a.	Mood
-        i.	Dangerous, tense, active
-    b.	Objects
-        i.	Ambient
-            1.	Rodents
-            2.	Torches
-            3.	Suits of armor
-        ii.	Interactive
-            1.	Guards
-            2.	Giant rats
-            3.	Chests
-```
+            1.	Consoles
+            2.	Buttons
+            3.	Doors
+            4.	Stairs
 
 _(example)_
 
@@ -147,6 +135,7 @@ _(example)_
     c.	BaseObject
 2.	BaseCollision
 3.	BaseInteractable
+4.	BaseCombat
 ```
 _(example)_ 
 
