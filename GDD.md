@@ -93,7 +93,6 @@ If the players health points reach zero, they die and they reload to previous sa
 With all of this said, the main mechanic consists of replacing simple turn based combat with easy and time based debugging challenges.
 
 # Level Design
- (Note : These sections can safely be skipped if they’re not relevant, or you’d rather go about it another way. For most games, at least one of them should be useful. But I’ll understand if you don’t want to use them. It’ll only hurt my feelings a little bit.)
 
 ## Themes
 ```
