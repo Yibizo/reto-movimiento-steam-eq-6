@@ -230,31 +230,29 @@ What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, spec
     d.	Button (matching Weathered Stone Bricks)
 ```
 
-Main Character:</br>
+Main Character:\
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Character/Gum%20Bot%20sprites.png?raw=true)
 
 
-Tileset:</br></br>
+Tileset:\\
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Tileset/scifitiles.png?raw=true)
 
 
-Enemies:</br>
+Enemies:\
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/Zapper/attack.png?raw=true)
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/Zapper/damaged%20and%20death.png?raw=true)
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/Zapper/wake.png?raw=true)
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/BallChain/attack.png?raw=true)
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/BallChain/charge.png?raw=true)
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/BallChain/death.png?raw=true)
-
-
+![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/BallChain/death.png?raw=true)\\
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/ToasterBot/all.png?raw=true)
 
 
-Demo Layout:
+Demo Layout:\
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/Preview/tutorial_area.PNG?raw=true)
 
 
-Terminal View:
+Terminal View:\
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/Preview/terminal_view.PNG?raw=true)
 
 
