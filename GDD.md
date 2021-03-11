@@ -150,24 +150,18 @@ With all of this said, the main mechanic consists of replacing simple turn based
     a.	PlayerMain
     b.	PlayerUnlockable
 2.	BaseEnemy
-    a.	EnemyWolf
-    b.	EnemyGoblin
-    c.	EnemyGuard (may drop key)
-    d.	EnemyGiantRat
-    e.	EnemyPrisoner
-3.	BaseObject
-    a.	ObjectRock (pick-up-able, throwable)
-    b.	ObjectChest (pick-up-able, throwable, spits gold coins with key)
-    c.	ObjectGoldCoin (cha-ching!)
-    d.	ObjectKey (pick-up-able, throwable)
-4.	BaseObstacle
-    a.	ObstacleWindow (destroyed with rock)
-    b.	ObstacleWall
-    c.	ObstacleGate (watches to see if certain buttons are pressed)
+    a.	EnemyToasterBot
+    b.	EnemyBallChain
+    c.	EnemyZapper
+3.	BaseObstacle
+    a.	ObstacleWall
+    b.	ObstacleGate (watches to see if certain buttons are pressed)
+    c.	ObstacleConsole
 5.	BaseInteractable
     a.	InteractableButton
+    b.	InteractableConsole
+    c.	InteractableDoor
 ```
-_(example)_
 
 # Graphics
 
@@ -185,7 +179,7 @@ _(example)_
         i.	Gum Bot (idle, walking, encounter, combat, death)
     b.	Enemies
         i.	Virus (combat, death)
-	ii.	Bug (combat, death
+	ii.	Bug (combat, death)
 2.	Blocks
     a.	Metal
     b.	Precaution Tiles
@@ -266,8 +260,6 @@ _(example)_
 ``` 
 
 # Schedule
- 
-(what is a schedule, i don’t even. list is good enough, right? if not add some dates i guess)
 
 ```
 1.	develop base classes
@@ -280,21 +272,15 @@ _(example)_
         ii.	menu world
 2.	develop player and basic block classes
     a.	physics / collisions
-3.	find some smooth controls/physics
+3.	find tileset movement
 4.	develop other derived classes
-    a.	blocks
-        i.	moving
-        ii.	falling
-        iii. breaking
-        iv.	cloud
-    b.	enemies
-        i. soldier
-        ii.	rat
-        iii. etc.
+    a.	enemies
+        i.	ToasterBot
+        ii.	BallChain
+        iii.	Zapper
 5.	design levels
-a.	introduce motion/jumping
-b.	introduce throwing
 c.	mind the pacing, let the player play between lessons
-6.	design sounds
-7.	design music
+6.	get sprites
+7.	get sounds
+8.	get music
 ```
