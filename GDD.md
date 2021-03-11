@@ -187,8 +187,9 @@ _(example)_
 
 ## Style Attributes
 - no limited color palette
-- everything is done in pixel art style to remain consistent with solid black outlines
-- interactables throughout the overworld have a distinctive brightness to them
+- everything is done in pixel art style to remain consistent
+- Characters utilize black outlines in order to stand put from the environment
+- interactables throughout the overworld have a distinctive style to them
 
 
 What kinds of colors will you be using? Do you have a limited palette to work with? A post-processed HSV map/image? Consistency is key for immersion.
@@ -265,6 +266,11 @@ _Classes + Themes section as a reference. It’s up to you.)_
 # Sounds/Music
  
 ## Style Attributes
+- Audio effects consist of 8 bit / 16 bit
+- Audio effects are short and satisfyingly responsive
+- Music background sound 8 bit / 16 bit, with a consistent theme of machinery and industry
+
+
 Again, consistency is key. Define that consistency here. What kind of instruments do you want to use in your music? Any particular tempo, key? Influences, genre? Mood?
 
 Stylistically, what kind of sound effects are you looking for? Do you want to exaggerate actions with lengthy, cartoony sounds (e.g. mario’s jump), or use just enough to let the player know something happened (e.g. mega man’s landing)? Going for realism? You can use the music style as a bit of a reference too.
