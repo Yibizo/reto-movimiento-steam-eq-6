@@ -201,25 +201,6 @@ What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, spec
 
 ## Graphics Needed
 
-Main Character:</br>
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Character/Gum%20Bot%20sprites.png?raw=true)
-
-
-Tileset:</br></br>
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Tileset/scifitiles.png?raw=true)
-
-
-Enemies:</br>
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/Zapper/attack.png?raw=true)
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/Zapper/damaged%20and%20death.png?raw=true)
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/Zapper/wake.png?raw=true)
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/BallChain/attack.png?raw=true)
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/BallChain/charge.png?raw=true)
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/BallChain/death.png?raw=true)
-
-
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/ToasterBot/all.png?raw=true)
-
 ```
 1.	Characters
     a.	Human-like
@@ -250,6 +231,27 @@ Enemies:</br>
     c.	Gate
     d.	Button (matching Weathered Stone Bricks)
 ```
+
+Main Character:</br>
+![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Character/Gum%20Bot%20sprites.png?raw=true)
+
+
+Tileset:</br></br>
+![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Tileset/scifitiles.png?raw=true)
+
+
+Enemies:</br>
+![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/Zapper/attack.png?raw=true)
+![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/Zapper/damaged%20and%20death.png?raw=true)
+![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/Zapper/wake.png?raw=true)
+![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/BallChain/attack.png?raw=true)
+![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/BallChain/charge.png?raw=true)
+![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/BallChain/death.png?raw=true)
+
+
+![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/ToasterBot/all.png?raw=true)
+
+
 _(example)_
 
 _(Note : If you’re soloing you might not need to define this part, as you can just use the Derived_
