@@ -248,7 +248,7 @@ What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, spec
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/FinalArt/Enemies/ToasterBot/all.png?raw=true)
 
 
-###Demo Layout:</br>
+## Demo Layout:</br>
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/Preview/tutorial_area.PNG?raw=true)
 
 
