@@ -2,11 +2,15 @@
 
 ## Table of content
 
-- [Business and Subsystem Use Case Model](#business-use-case-model)
-- [Activity Diagram -> System Use Case](#activity-diagram)
+- [Business Use Case Model](#business-use-case-model)
+- [Subsystem Use Case Model -> Kiosk Check-In](#subsystem-use-case-model---kiosk-check-in)
+- [Activity Diagram -> Kiosk Check-In System Use Case](#activity-diagram---kiosk-check-in-system-use-case)
 
-## Business and Subsystem Use Case Model
-![Business and Subsystem Use Case Model](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/diagrams/use_case_stem.png?raw=true)
+## Business Use Case Model
+![Business Use Case Model](diagrams/business-use-case-example.drawio.svg)
 
-## Activity Diagram -> System Use Case
-![Activity Diagram -> Kiosk Check-In System Use Case](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/diagrams/activity_case_stem.png?raw=true)
+## Subsystem Use Case Model -> Kiosk Check-In
+![Subsystem Use Case Model -> Kiosk Check-In](diagrams/system-use-case-example.drawio.svg)
+
+## Activity Diagram -> Kiosk Check-In System Use Case
+![Activity Diagram -> Kiosk Check-In System Use Case](diagrams/activity_example.drawio.svg)
