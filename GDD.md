@@ -1,4 +1,7 @@
-![alt text](videogame/Art/FinalArt/Logo/logo_mainframe_white_text.png?raw=true)<img src="videogame/Art/FinalArt/Logo/tec_logo_2.png" width="50"/>
+<img src="videogame/Art/FinalArt/Logo/tec_logo_2.png" width="50"/>
+
+
+![alt text](videogame/Art/FinalArt/Logo/logo_mainframe_white_text.png?raw=true)
 > Game Design Document
 
 # Dream Team
