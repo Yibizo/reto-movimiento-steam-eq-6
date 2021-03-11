@@ -48,6 +48,7 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 - We may not be able to develop the project until our professors teach us the subjects necessary for its evolution.
 - We may deliver a different product to what STEM is asking because of the unclarity of the requirements, as well as how long its taking to get specifics.
 - We may be constraint by time and only be able to finish one world, as opposed to the expected three. 
+- The client may not be satisfied with the videogame due to its prototype state.
 
 # System Features and Requirements
 This is where you detail the specific requirements for building your product.
