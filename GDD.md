@@ -110,20 +110,24 @@ With all of this said, the main mechanic consists of replacing simple turn based
             2.	Buttons
             3.	Doors
             4.	Stairs
-
-_(example)_
+```
 
 ## Game Flow
 ```
-1.	Player starts in forest
-2.	Pond to the left, must move right
-3.	To the right is a hill, player jumps to traverse it (“jump” taught)
-4.	Player encounters castle - door’s shut and locked
-5.	There’s a window within jump height, and a rock on the ground
-6.	Player picks up rock and throws at glass (“throw” taught)
-7.	… etc.
+1.	Players sees cutscene
+2.	Player starts inside computer setting
+3.	North is a console that teaches the player the basics, to the right is the door to exit
+4.	Terminal appears, teaching the players the basics
+5.	Next room has the same interactable console that tells the player the encounter system, and a button that opens the door
+6.	Player can walk in encounter tiles, which will trigger combat
+7.	Player sees the combat UI, and can decide what to do
+8.	When the player decides to proceed, they get a basic programming question in which they have to input their answer
+9.	The player wins, and exits combat
+10.	The player proceeds to the next room, in which they get an iteractable console that tells them about boss tiles
+11.	The player can engage in same combat as before, only against a boss
+13.	Then, the player can read the final console that tells them to proceed to the next area through the stairs
+14.	The player uses the stairs in order to exit the tutorial area
 ```
-(example)
 
 
 # Development
@@ -132,12 +136,13 @@ _(example)_
 ```
 1.	BasePhysics
     a.	BasePlayer
-    c.	BaseObject
+    b.	BaseObject
 2.	BaseCollision
 3.	BaseInteractable
 4.	BaseCombat
+    a. Base UI
+    b. Base Terminal
 ```
-_(example)_ 
 
 ## Derived Classes / Component Compositions
 ```
