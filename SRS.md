@@ -56,8 +56,8 @@ This is where you detail the specific requirements for building your product.
 ## Functional Requirements
 - Have a complete and playable videogame
 - Host the videogame within the webpage
-- Track user data correpsonding to activity inside the videogame
-- Display user information in order to determine system effcieny
+- Track player data corresponding to activity inside the videogame
+- Display player information in order to determine videogame effciency according to its objectives
 
 
 |Title|User story|Importance|Notes|
