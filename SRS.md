@@ -51,7 +51,6 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 - The client may not be satisfied with the videogame due to its prototype state.
 
 # System Features and Requirements
-This is where you detail the specific requirements for building your product.
 
 ## Functional Requirements
 - Have a complete and playable videogame
