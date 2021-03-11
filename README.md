@@ -1,4 +1,4 @@
-# Reto Movimiento Steam
+# Reto Movimiento Steam (Equipo 6)
 
 Dream Team:
 - Diego Mejía (A01024228)
