@@ -280,28 +280,32 @@ Remember, auditory feedback should stand out from the music and other sound effe
 ## Sounds Needed
 ```
 1.	Effects
-    a.	Soft Footsteps (dirt floor)
-    b.	Sharper Footsteps (stone floor)
-    c.	Soft Landing (low vertical velocity)
-    d.	Hard Landing (high vertical velocity)
-    e.	Glass Breaking
-    f.	Chest Opening
-    g.	Door Opening
+    a.	Soft Footsteps (Normal Floor)
+    b.	Sharper Footsteps (Encounter Floor)
+    c.  Object Interaction
+    d.	Button Stepping
+    e.	Door Opening
+    f. 	Stairs Fade-in Footsteps
+    g.	Stairs Fade-out Footsteps
+    h.	Encounter Noise
+    i.	Clock Tick
 2.	Feedback
-    a.	Relieved “Ahhhh!” (health)
-    b.	Shocked “Ooomph!” (attacked)
-    c.	Happy chime (extra life)
-    d.	Sad chime (died)
+    a.	Accept Button Press
+    b.	Cancel / Return Button Press
+    c.	Input Detection Terminal
+    d.	UI Element Movement
+    e.	Player Attack
+    f.	Enemy Attack
+    g.	Flee Noise
 ```
 _(example)_
 
 ## Music Needed
 ```
-1.	Slow-paced, nerve-racking “forest” track
-2.	Exciting “castle” track
-3.	Creepy, slow “dungeon” track
+1.	Slow-paced, relaxed background music
+2.	Intense, mid-paced, boss battle music
+3.	Fast-paced, combat music with same tones
 4.	Happy ending credits track
-5.	Rick Astley’s hit #1 single “Never Gonna Give You Up”
 ``` 
 _(example)_
 
