@@ -218,8 +218,8 @@ With all of this said, the main mechanic consists of replacing simple turn based
 ![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/Preview/tutorial_area.PNG?raw=true)
 
 
-## Terminal View:</br>
-![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/Preview/terminal_view.PNG?raw=true)
+## Battle System:</br>
+![alt text](https://github.com/Yibizo/reto-movimiento-steam-eq-6/blob/main/videogame/Art/Preview/battle_system.PNG?raw=true)
 
 # Sounds/Music
  
