@@ -29,8 +29,6 @@ Create a video game focused on inspiring vocations in STEM (Biotechnology, Agric
 - Objectives: break barriers, myths and prejudices describing that those types of careers are only for men
 - Goals: Proximity to STEM subjects, without any gender discrimination
 
-Describe the software being specified. Include benefits, objectives, and goals. This should relate to overall business goals, especially if teams outside of development will have access to the SRS
-
 ## Definitions and Acronyms
 - STEM: science, technology, engineering, and mathematics education
 - STEAM: science, technology, engineering, arts, and mathematics education
@@ -39,14 +37,8 @@ Describe the software being specified. Include benefits, objectives, and goals. 
 - terminal: refers to a terminal that can be seen within any modern code editor
 - dashboard: type of interface which presents information to the user
 
-Include any non-trivial definition or acronym used in the document.
-
 # Overall Description
 The team's going to build a turn-based rpg with a focus on programming from scratch. Combat will be replaced with basic terminal problems and questions in order to explore said topic, as well as an overworld to promote critical-thinking. The videogame will be hosted within a webpage created by the team. Finally, user data and activity inside the videogame will be tracked, registered and displayed within the website to show the game's efficieny in terms of encouragement towards STEM vocations.
-
-Describe what you’re going to build. Is it an update to an existing product? Is it a new product? Is it an add-on to a product you’ve already created?
-
-These are important to describe upfront, so everyone knows what you’re building.
 
 ## User classes
 - External users: 
@@ -59,12 +51,6 @@ User classes and characteristics are critical. You’ll need to define who (diff
 - We may deliver a different product to what STEM is asking because of the unclarity of the requirements, as well as how long its taking to get specifics.
 - We may be constraint by time and only be able to finish one world, as opposed to the expected three. 
 
-There might be factors that impact your ability to fulfill the requirements outlined in this document. What are those factors?
-
-Are there any assumptions you’re making that could turn out to be false? You should include those here, as well.
-
-Finally, you should note if your project is dependent on any external factors. This might include software components you’re reusing from another project.
-
 # System Features and Requirements
 This is where you detail the specific requirements for building your product.
 
@@ -73,20 +59,13 @@ This is where you detail the specific requirements for building your product.
 - Host the videogame within the webpage
 - Track user data correpsonding to activity inside the videogame
 - Display user information in order to determine system effcieny
-The functional requirements describe the services and functions of a system. Functional requirements must be precise and unambiguous.
 
-Include user stories, which are short descriptions of a feature, told from the perspective of one of your end user profiles. They are typically structured in the following fashion:
-
-> As a __[type of user]__, I want __[some goal]__ so that __[some reason]__.
-
-You may want to use the following template table.
 
 |Title|User story|Importance|Notes|
 |---|---|---|---|
 |_External User_|_As an external user, I want to be able to sign up so that my progress within the videogame is saved_|_Must have_|_Sample Comment_|
 |_STEM Member_|_As a STEM member, I want to be able to access and view user data regarding activity within the videogame so that I can determine its efficieny towards the promotion of STEM vocations_|_Must have_|_Sample comment_|
 |_External User_|_As an external user, I want the videogame to not be too hard and frustrating, but also not too easy and boring so that I have an enjoyable experience_|_Should have_|_Sample comment_|
-|_Short identifier_|_As a [type of user], I want [some goal] so that [some reason]_|_Must have_|_Write here any additional consideration_|
 
 ## External Interface Requirements
 External interface requirements are types of functional requirements. They outline how your product will interface with other components or systems.
@@ -102,8 +81,6 @@ There are several types of interfaces you may have requirements for, including:
     - 2.0GHz processor
 - Software
     - Any modern web browser (Chrome, Firefox, etc.)
-- Communications
-    - ??
 
 ## Non-functional Requirements
 - The product must be on a website platform
@@ -114,8 +91,6 @@ There are several types of interfaces you may have requirements for, including:
 - The website must display user data with high precision
 - The user profile data is confidential and must comply with mexican privacy laws
 - Users have the right to audit their data and request their removal from the system
-
-Non-functional requirements are restrictions on the system or the development process. Non-functional requirements can be more critical than functional ones. If they are not met, the system is useless!
 
 # Screens
 The website consists of three pages; the landing page, the dashboard displaying user data and the page where the videogame is hosted.
@@ -129,10 +104,6 @@ The videogame itself contains a few different screens.
 - The 2.5D overworld which can be explored, in addition to including puzzles and leading to combat determined by RNG.
 - Combat, in which you are able to see enemy stats, your stats and options for the turn, which also includes the terminal. 
 - Cutscenes, which are brief and offer no player interaction, apart from skipping said cutscene.
-
-Identifying the individual screens (for an app), or pages (for a website) are where a product’s shape starts to become clear. They are a distillation of the user stories into a set of distinct sections that satisfy the needs and behaviors identified so far. The process of outlining an application’s screens may also highlight any requirements or considerations that have been overlooked up to this point.
-
-This has the dual purpose of both contributing to a more accurate vision of the product early on, and serving as a jumping-off point for the time when designers do get involved.
 
 ## Wireframes
 Wireframes are simple page layouts that outline the size and placement of elements, and features on a page. They are generally devoid of color, font styles, logos or any design elements.
