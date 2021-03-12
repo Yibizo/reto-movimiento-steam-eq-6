@@ -34,7 +34,6 @@
 - [Schedule](#schedule)
 
 
-
 # Game Design
 
 ## Summary
@@ -127,7 +126,6 @@ With all of this said, the main mechanic consists of replacing simple turn based
 13.	Then, the player can read the final console that tells them to proceed to the next area through the stairs
 14.	The player uses the stairs in order to exit the tutorial area
 ```
-
 
 # Development
  
