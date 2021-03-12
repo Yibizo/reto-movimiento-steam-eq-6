@@ -133,20 +133,18 @@ With all of this said, the main mechanic consists of replacing simple turn based
 ```
 1.	BasePhysics
     a.	BasePlayer
-    b.	BaseEnemy
-    c.	BaseObject
-2.	BaseCollision
-3.	BaseInteractable
-4.	BaseBattleSystem
-    a.	Base UI
-    b.	Base Terminal
+    b.	BaseObject
+2.	BaseInteractable
+3.	BaseBattleSystem
+    b.	BaseTerminal
+    c.	BaseBattleUnit
 ```
 
 ## Derived Classes / Component Compositions
 ```
 1.	BasePlayer
     a.	PlayerMain
-    b.	PlayerUnlockable
+    b.	PlayerController
 2.	BaseEnemy
     a.	EnemyToasterBot
     b.	EnemyBallChain
@@ -159,11 +157,19 @@ With all of this said, the main mechanic consists of replacing simple turn based
     a.	InteractableButton
     b.	InteractableConsole
     c.	InteractableDoor
+5.	BaseBattleSystem
+    a.	BattleActionBox
+    b.	BattleDialogBox
+    c.	BattleHud
+    d.	BattleSystem
+    e.	BattleUnit
+    f.	TerminalBase
 ```
 
 # Graphics
 
 ## Style Attributes
+
 - no limited color palette
 - everything is done in pixel art style to remain consistent
 - Characters utilize black outlines in order to stand put from the environment
@@ -225,6 +231,7 @@ With all of this said, the main mechanic consists of replacing simple turn based
 # Sounds/Music
  
 ## Style Attributes
+
 - Audio effects consist of 8 bit / 16 bit
 - Audio effects are short and satisfyingly responsive
 - Music background has a consistent theme of machinery and industry
