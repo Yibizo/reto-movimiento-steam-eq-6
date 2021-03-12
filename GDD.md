@@ -135,7 +135,8 @@ With all of this said, the main mechanic consists of replacing simple turn based
 ```
 1.	BasePhysics
     a.	BasePlayer
-    b.	BaseObject
+    b.	BaseEnemy
+    c.	BaseObject
 2.	BaseCollision
 3.	BaseInteractable
 4.	BaseBattleSystem
