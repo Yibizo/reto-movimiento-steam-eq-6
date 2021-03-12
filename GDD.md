@@ -272,15 +272,15 @@ With all of this said, the main mechanic consists of replacing simple turn based
         ii.	menu world
 2.	develop player and basic block classes
     a.	physics / collisions
-3.	find tileset movement
-4.	develop other derived classes
+3.	get sprites
+4.	script tileset movement
+5.	develop other derived classes
     a.	enemies
         i.	ToasterBot
         ii.	BallChain
         iii.	Zapper
-5.	design levels
-c.	mind the pacing, let the player play between lessons
-6.	get sprites
+6.	design levels
+	i.	mind the pacing, let the player play between lessons
 7.	get sounds
 8.	get music
 ```
