@@ -38,7 +38,7 @@ Create a video game focused on inspiring vocations in STEM (Biotechnology, Agric
 - dashboard: type of interface which presents information to the user
 
 # Overall Description
-The team's going to build a turn-based rpg with a focus on programming from scratch. Combat will be replaced with basic terminal problems and questions in order to explore said topic, as well as an overworld to promote critical-thinking. The videogame will be hosted within a webpage created by the team. Finally, user data and activity inside the videogame will be tracked, registered and displayed within the website to show the game's efficieny in terms of encouragement towards STEM vocations.
+The team's going to build a turn-based rpg with a focus on programming from scratch. Combat will be replaced with basic terminal problems and questions in order to explore said topic, as well as an overworld to promote critical-thinking. The videogame will be hosted within a webpage created by the team. Finally, user data and activity inside the videogame will be tracked, registered and displayed within the website to show the game's efficieny in terms of encouragement towards STEM vocations, as well as overall videogame performance within its users.
 
 ## User classes
 - External users: Any user interested in playing the game. They need to be able to acces the website, play the game and compare their player stats top others.
@@ -56,7 +56,7 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 - Have a complete and playable videogame
 - Host the videogame within the webpage
 - Track player data corresponding to activity inside the videogame
-- Display player information in order to determine videogame effciency according to its objectives
+- Display player information in order to determine videogame effciency according to its previously established objectives.
 
 
 |Title|User story|Importance|Notes|
@@ -89,18 +89,18 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 - Users have the right to audit their data and request their removal from the system
 
 # Screens
-The website consists of three pages; the landing page, the dashboard displaying user data and the page where the videogame is hosted.
+The website consists of two pages; the landing page and the page where the videogame is hosted.
 
 - The landing page includes the games title and a brief description in order to motivate the visitor to play the videgame.
-- The dashboard includes graphs and data of user information and intercations within the videogame in order to evaluate the game efficieny.
+- The dashboard is included at the bottom of the website, and it displays data of user information and intercations within the videogame in order to evaluate the game's efficieny, as well as overall player activity.
 - The third, where the videogame is hosted, just involves a fullscreen view of the game.
 
 The videogame itself contains a few different screens.
 
-- The 2.5D overworld which can be explored, in addition to including puzzles and leading to combat determined by RNG.
-- Combat, in which you are able to see enemy stats, your stats and options for the turn, which also includes the terminal. 
+- The 2.5D overworld which can be explored, in addition to including encounter tiles that lead to combat determined by RNG.
+- Combat, in which you are able to see enemy stats, your stats and options for the turn, as well as the terminal that displays a problem and recieves player input. 
 - Cutscenes, which are brief and offer no player interaction, apart from skipping said cutscene.
-- Menu screens in which file saves can be accesed and options can be modified.
+- Menu screens in which save files can be accesed and options can be modified, as well as inventory access.
 
 ## Wireframes (WIP)
 Wireframes are simple page layouts that outline the size and placement of elements, and features on a page. They are generally devoid of color, font styles, logos or any design elements.
