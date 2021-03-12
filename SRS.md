@@ -69,7 +69,7 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 ## External Interface Requirements
 
 - User:
-    - Have a playable videogame that is not too hard and frustrating, but also not too easy and boring that induces STEM abilities.
+    - Have a playable videogame with problems that are solvable in under 2 minutes, but also not too easy and boring where an unexperienced player can solve it under 5 seconds, as well as inducing STEM abilities
     - Have a clear and inductive way to access user data according to the videogame's efficieny and its playerbase
 - Hardware
     - 4gb of RAM
