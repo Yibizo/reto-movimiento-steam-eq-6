@@ -57,7 +57,7 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 - Host the videogame within the webpage
 - Display videogame data and information within the webpage, such as its name, description, screenshots, among others
 - Track player data corresponding to activity inside the videogame
-- Display player information in order to determine videogame effciency according to its previously established objectives.
+- Display player information in order to determine videogame effciency according to its previously established objectives
 
 
 |Title|User story|Importance|Notes|
