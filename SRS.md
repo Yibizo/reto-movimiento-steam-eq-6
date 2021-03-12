@@ -22,7 +22,7 @@ _Table of content generated using VSCode plugin [Markdown TOC](https://marketpla
 # Introduction
 
 ## Purpose
-Create a video game focused on inspiring vocations in STEM (Biotechnology, Agriculture and Livestock, Physicomathematical and Earth Earth Sciences, ICT Software and Services, Industrial engineering and transportation, Pharmaceuticals and biotechnology), as well as dveelop cognitive abilities (creativity, communication, colaborative work, crticial thinking, problem-solving, data alphabetization, digital alphabetization and computational sciences). In addition to this, track and register all user data and activity within the videogame in order to determine its effciency. 
+Create a video game focused on inspiring vocations in STEM (Biotechnology, Agriculture and Livestock, Physicomathematical and Earth Sciences, ICT Software and Services, Industrial engineering and transportation, Pharmaceuticals and biotechnology), as well as dveelop cognitive abilities (creativity, communication, colaborative work, crticial thinking, problem-solving, data alphabetization, digital alphabetization and computational sciences). In addition to this, track and register all user data and activity within the videogame in order to determine its effciency. 
 
 ## Scope
 - Benefits: inclusion of women within STEM vocations, as well as the promotion of said subjects
