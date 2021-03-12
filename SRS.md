@@ -66,9 +66,7 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 |_External User_|_As an external user, I want the videogame to not be too hard and frustrating, but also not too easy and boring so that I have an enjoyable experience_|_Should have_|_Sample comment_|
 
 ## External Interface Requirements
-External interface requirements are types of functional requirements. They outline how your product will interface with other components or systems.
 
-There are several types of interfaces you may have requirements for, including:
 - User:
     - Have a playable videogame that is not too hard and frustrating, but also not too easy and boring that induces STEM abilities.
     - Have a clear and inductive way to access user data according to the videogame's efficieny
