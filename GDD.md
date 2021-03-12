@@ -220,9 +220,9 @@ With all of this said, the main mechanic consists of replacing simple turn based
 
 
 ## Battle System:</br>
-![alt text](videogame/Art/Preview/battle_system_1.PNG?raw=true)
-![alt text](videogame/Art/Preview/battle_system_2.PNG?raw=true)
-![alt text](videogame/Art/Preview/battle_system_3.PNG?raw=true)
+![alt text](videogame/Art/Preview/battle_system_1.PNG?raw=true)</br>
+![alt text](videogame/Art/Preview/battle_system_2.PNG?raw=true)</br>
+![alt text](videogame/Art/Preview/battle_system_3.PNG?raw=true)</br>
 
 # Sounds/Music
  
