@@ -74,7 +74,6 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 - Hardware
     - 4gb of RAM
     - Intel Core I3 or AMD Ryzen 3
-    - 500mb of storage
     - 2.0GHz processor
 - Software
     - Any modern web browser (Chrome, Firefox, etc.)
