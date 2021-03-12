@@ -84,7 +84,7 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 - The database must register user actions and progress within the videogame
 - The videogame must have at least one overworld, with one final boss
 - The videogame must be hosted within a webpage
-- The website must display user data with high precision
+- The website must display user data with high precision and readability
 - The user profile data is confidential and must comply with mexican privacy laws
 - Users have the right to audit their data and request their removal from the system
 
