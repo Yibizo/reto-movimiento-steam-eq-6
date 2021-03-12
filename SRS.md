@@ -22,11 +22,11 @@ _Table of content generated using VSCode plugin [Markdown TOC](https://marketpla
 # Introduction
 
 ## Purpose
-Create a video game focused on inspiring vocations in STEM (Biotechnology, Agriculture and Livestock, Physicomathematical and Earth Sciences, ICT Software and Services, Industrial engineering and transportation, Pharmaceuticals and biotechnology), as well as dveelop cognitive abilities (creativity, communication, colaborative work, crticial thinking, problem-solving, data alphabetization, digital alphabetization and computational sciences). In addition to this, track and register all user data and activity within the videogame in order to determine its effciency. 
+Create a video game focused on inspiring vocations in STEM (Biotechnology, Agriculture and Livestock, Physicomathematical and Earth Sciences, ICT Software and Services, Industrial engineering and transportation, and Pharmaceuticals), as well as develop cognitive abilities (creativity, communication, colaborative work, crticial thinking, problem-solving, data alphabetization, digital alphabetization and computational sciences). In addition to this, track and register all necessary user data and activity within the videogame in order to determine its effciency. 
 
 ## Scope
 - Benefits: inclusion of women within STEM vocations, as well as the promotion of said subjects
-- Objectives: break barriers, myths and prejudices describing that those types of careers are only for men
+- Objectives: break barriers, myths and prejudices that describe those types of career paths as 'only for men'
 - Goals: Proximity to STEM subjects, without any gender discrimination
 
 ## Definitions and Acronyms
@@ -41,7 +41,7 @@ Create a video game focused on inspiring vocations in STEM (Biotechnology, Agric
 The team's going to build a turn-based rpg with a focus on programming from scratch. Combat will be replaced with basic terminal problems and questions in order to explore said topic, as well as an overworld to promote critical-thinking. The videogame will be hosted within a webpage created by the team. Finally, user data and activity inside the videogame will be tracked, registered and displayed within the website to show the game's efficieny in terms of encouragement towards STEM vocations, as well as overall videogame performance within its users.
 
 ## User classes
-- External users: Any user interested in playing the game. They need to be able to acces the website, play the game and compare their player stats top others.
+- External users: Any user interested in playing the game. They need to be able to acces the website, play the game and compare their player stats to others.
 - STEM members: Users that are focused on viewing player stats and evaluating whether or not the game achieved its goals. They need to be able to access the website and view player stats.
 
 ## Assumptions and Dependencies
@@ -70,7 +70,7 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 
 - User:
     - Have a playable videogame with problems that are solvable in under 2 minutes, but also not too easy and boring where an unexperienced player can solve it under 5 seconds, as well as inducing STEM abilities
-    - Have a clear and inductive way to access user data according to the videogame's efficieny and its playerbase
+    - Have a clear and intuitive way to access user data according to the videogame's efficieny by having an uncluttered interface.
 - Hardware
     - 4gb of RAM
     - Intel Core I3 or AMD Ryzen 3
@@ -93,12 +93,12 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 The website consists of three sections; the landing page, the section where the videogame is hosted, and the dashboard at the bottom.
 
 - The landing page includes the game's title and a brief description in order to motivate the visitor to play the videogame, as well as game screenshots and images.
-- The second, where the videogame is hosted, just involves a view of said game.
-- The dashboard is included at the bottom of the website, and it displays data of user information and intercations within the videogame in order to evaluate the game's efficieny, as well as overall player activity.
+- The second section, where the videogame is hosted, just involves a view of said game.
+- The dashboard is included at the bottom of the website, and it displays data of user information and interactions within the videogame in order to evaluate the game's efficieny, as well as overall player activity.
 
 The videogame itself contains a few different screens.
 
-- The 2.5D overworld which can be explored, in addition to including encounter tiles that lead to combat determined by RNG.
+- The 2D overworld which can be explored, in addition to including encounter tiles that lead to combat determined by RNG.
 - Combat, in which you are able to see enemy stats, your stats and options for the turn, as well as the terminal that displays a problem and recieves player input. 
 - Cutscenes, which are brief and offer no player interaction, apart from skipping said cutscene.
 - Menu screens in which save files can be accesed and options can be modified, as well as inventory access.
