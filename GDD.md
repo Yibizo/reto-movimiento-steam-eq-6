@@ -138,9 +138,9 @@ With all of this said, the main mechanic consists of replacing simple turn based
     b.	BaseObject
 2.	BaseCollision
 3.	BaseInteractable
-4.	BaseCombat
-    a. Base UI
-    b. Base Terminal
+4.	BaseBattleSystem
+    a.	Base UI
+    b.	Base Terminal
 ```
 
 ## Derived Classes / Component Compositions
