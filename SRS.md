@@ -55,6 +55,7 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 ## Functional Requirements
 - Have a complete and playable videogame
 - Host the videogame within the webpage
+- Display videogame data and information within the webpage, such as its name, description, screenshots, among others
 - Track player data corresponding to activity inside the videogame
 - Display player information in order to determine videogame effciency according to its previously established objectives.
 
@@ -69,7 +70,7 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 
 - User:
     - Have a playable videogame that is not too hard and frustrating, but also not too easy and boring that induces STEM abilities.
-    - Have a clear and inductive way to access user data according to the videogame's efficieny
+    - Have a clear and inductive way to access user data according to the videogame's efficieny and its playerbase
 - Hardware
     - 4gb of RAM
     - Intel Core I3 or AMD Ryzen 3
@@ -84,16 +85,17 @@ The team's going to build a turn-based rpg with a focus on programming from scra
 - The database must register user actions and progress within the videogame
 - The videogame must have at least one overworld, with one final boss
 - The videogame must be hosted within a webpage
+- The website must display all related videogame information before accessing the videogame
 - The website must display user data with high precision and readability
 - The user profile data is confidential and must comply with mexican privacy laws
 - Users have the right to audit their data and request their removal from the system
 
 # Screens
-The website consists of two pages; the landing page and the page where the videogame is hosted.
+The website consists of three sections; the landing page, the section where the videogame is hosted, and the dashboard at the bottom.
 
-- The landing page includes the games title and a brief description in order to motivate the visitor to play the videgame.
+- The landing page includes the game's title and a brief description in order to motivate the visitor to play the videogame, as well as game screenshots and images.
+- The second, where the videogame is hosted, just involves a view of said game.
 - The dashboard is included at the bottom of the website, and it displays data of user information and intercations within the videogame in order to evaluate the game's efficieny, as well as overall player activity.
-- The third, where the videogame is hosted, just involves a fullscreen view of the game.
 
 The videogame itself contains a few different screens.
 
