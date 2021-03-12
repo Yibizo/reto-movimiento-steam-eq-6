@@ -157,6 +157,7 @@ With all of this said, the main mechanic consists of replacing simple turn based
     a.	InteractableButton
     b.	InteractableConsole
     c.	InteractableDoor
+    d.	EncounterTile
 5.	BaseBattleSystem
     a.	BattleActionBox
     b.	BattleDialogBox
