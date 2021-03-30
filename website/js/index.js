@@ -1,14 +1,14 @@
 const slidesContainer = document.getElementById('slides');
-const countImgs = slidesContainer.getElementsByTagName('img').length;
+const lenImgList = slidesContainer.getElementsByTagName('img').length;
 let index = 1;
 
 function prevNextImg(boolCond) {
     let prev;
     if (boolCond) {
         index++;
-        if (index > countImgs) {
+        if (index > lenImgList) {
             index = 1;
-            prev = countImgs;
+            prev = lenImgList;
         }
         else {
             prev = index-1;
@@ -17,7 +17,7 @@ function prevNextImg(boolCond) {
     else {
         index--;
         if (index < 1) {
-            index = countImgs;
+            index = lenImgList;
             prev = 1;
         }
         else {
@@ -31,5 +31,9 @@ function prevNextImg(boolCond) {
 }
 
 function waitNextImg() {
-    setInterval(function(){prevNextImg(true);},20000);
+    setInterval(function(){prevNextImg(true);},10000);
+}
+
+function test() {
+    alert('test');
 }
