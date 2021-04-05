@@ -104,9 +104,8 @@ The videogame itself contains a few different screens.
 - Menu screens in which save files can be accesed and options can be modified, as well as inventory access.
 
 ## Wireframes (WIP)
-Wireframes are simple page layouts that outline the size and placement of elements, and features on a page. They are generally devoid of color, font styles, logos or any design elements.
 
-Wireframing is probably the most time-consuming step of this process and for some simple projects, it may be overkill. For complex projects where serious design thinking needs to happen, wireframes are an indispensable tool.
+![alt text](wireframes/wireframe_mainframe_website (0).png?raw=true)
 
 Here are some popular tools for wireframing:
 - https://marvelapp.com/  
