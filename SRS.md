@@ -103,7 +103,7 @@ The videogame itself contains a few different screens.
 - Cutscenes, which are brief and offer no player interaction, apart from skipping said cutscene.
 - Menu screens in which save files can be accesed and options can be modified, as well as inventory access.
 
-# Wireframes (WIP)
+# Wireframes
 
 ## Website
 ![alt text](wireframes/wireframe_mainframe_website_0.png?raw=true)
@@ -119,12 +119,3 @@ The videogame itself contains a few different screens.
 ![alt text](wireframes/wireframe_mainframe_videogame_2.png?raw=true)
 ![alt text](wireframes/wireframe_mainframe_videogame_3.png?raw=true)
 ![alt text](wireframes/wireframe_mainframe_videogame_4.png?raw=true)
-
-Here are some popular tools for wireframing:
-- https://marvelapp.com/  
-- https://balsamiq.com/ 
-- https://jetstrap.com/ 
-- https://www.fluidui.com/ 
-- https://ninjamock.com/ 
-- https://www.justinmind.com/ 
-- https://moqups.com/
