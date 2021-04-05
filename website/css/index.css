@@ -145,6 +145,25 @@ links a:hover{
     transition: all .5s;
 }
 
+/*description*/
+#description div{
+    border: 0 solid white;
+    padding: 1.5vh 3vw;
+    height: auto;
+    text-align: justify;
+    font-size: 1.3vw;
+    line-height: 4.5vh;
+}
+.titleDesc{
+    font-size: 3vw !important;
+    font-weight: bold;
+    width: 100%;
+}
+#description div:nth-child(2){
+    
+    padding-top: 4vh;
+}
+
 /*videogame*/
 game{
     position: absolute;
@@ -162,8 +181,8 @@ grid{
     gap: .2em .2em;
     padding: .2em;
     grid-template-areas: 
-    "one two three three"
-    "one four five five"
+    "one two four four"
+    "one three five five"
     "one six six six";
 }
 grid data{
