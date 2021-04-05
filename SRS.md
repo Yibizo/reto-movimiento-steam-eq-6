@@ -105,6 +105,7 @@ The videogame itself contains a few different screens.
 
 ## Wireframes (WIP)
 
+##Website
 ![alt text](wireframes/wireframe_mainframe_website_0.png?raw=true)
 ![alt text](wireframes/wireframe_mainframe_website_1.png?raw=true)
 ![alt text](wireframes/wireframe_mainframe_website_2.png?raw=true)
