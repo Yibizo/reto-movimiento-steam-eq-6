@@ -113,6 +113,13 @@ The videogame itself contains a few different screens.
 ![alt text](wireframes/wireframe_mainframe_website_4.png?raw=true)
 ![alt text](wireframes/wireframe_mainframe_website_5.png?raw=true)
 
+## Videogame
+![alt text](wireframes/wireframe_mainframe_videogame_0.png?raw=true)
+![alt text](wireframes/wireframe_mainframe_videogame_1.png?raw=true)
+![alt text](wireframes/wireframe_mainframe_videogame_2.png?raw=true)
+![alt text](wireframes/wireframe_mainframe_videogame_3.png?raw=true)
+![alt text](wireframes/wireframe_mainframe_videogame_4.png?raw=true)
+
 Here are some popular tools for wireframing:
 - https://marvelapp.com/  
 - https://balsamiq.com/ 
