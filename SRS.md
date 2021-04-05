@@ -103,7 +103,7 @@ The videogame itself contains a few different screens.
 - Cutscenes, which are brief and offer no player interaction, apart from skipping said cutscene.
 - Menu screens in which save files can be accesed and options can be modified, as well as inventory access.
 
-## Wireframes (WIP)
+# Wireframes (WIP)
 
 ## Website
 ![alt text](wireframes/wireframe_mainframe_website_0.png?raw=true)
