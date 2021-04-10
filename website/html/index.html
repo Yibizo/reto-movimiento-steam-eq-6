@@ -7,9 +7,9 @@
         <title>Into The Mainframe</title>
         <link rel="stylesheet" href="../css/index.css">
     </head>
-    <body onload="waitNextImg()">
+    <body>
         <nav>
-            <a href="#scrollImgList"><img src="https://loremflickr.com/100/300"/></a>
+            <a href="#scrollImgList"><img src="../images/logo_mainframe_white_text_no_bg.png"/></a>
             <links>
                 <span><a href="#scrollDescription">Descripción</a></span>
                 <span><a href="#scrollVideogame">Videojuego</a></span>
@@ -19,16 +19,29 @@
         <main id="layout">
             <div id="imgList">
                 <p class="scroll" id="scrollImgList">scroll</p>
-                <slides id="slides">
-                    <img src="https://loremflickr.com/600/600" style="opacity: 1;">
-                    <img src="https://loremflickr.com/599/600">
-                    <img src="https://loremflickr.com/598/600">
-                    <img src="https://loremflickr.com/597/600">
-                    <img src="https://loremflickr.com/596/600">
-                </slides>
+                <div id="slides">
+                    <div style="opacity: 1;">
+                        <text class="container">
+                            <img id="logo" src="../images/logo_mainframe_white_text_no_bg.png"/>
+                            <p id="subLogo">minitest</p>
+                        </text>
+                        <img src="https://loremflickr.com/600/600">
+                    </div>
+                    <div>
+                        <p>test 2</p>
+                        <img src="https://loremflickr.com/599/600">
+                    </div>
+                    <div>
+                        <p>test 3</p>
+                        <img src="https://loremflickr.com/598/600">
+                    </div>
+                    <div>
+                        <video src="../videos/those old youtube tutorials.mp4" controls style="pointer-events: none;"></video>
+                    </div>
+                </div>
                 <div id=buttonList>
-                    <div onclick="prevNextImg(false)"><</div>
-                    <div onclick="prevNextImg(true)">></div>
+                    <div onclick="prevNext(false)"><</div>
+                    <div onclick="prevNext(true)">></div>
                 </div>
             </div>
             <div id="description">
@@ -36,9 +49,6 @@
                 <div class="titleDesc">Descripción General</div>
                 <div>
                     'Into the Mainframe' es un juego de rol en 2,5D, pixelado y por turnos, en el que tú, el jugador, eres absorbido por el ordenador de tu trabajo y tienes que luchar contra los virus que lo infectan. Avanza a través de varios mundos informáticos, mientras luchas contra dichos virus enemigos, con el fin de escapar y liberar tu ordenador del malware malicioso en el camino. 
-                </div>
-                <div>
-                    Las batallas consisten en retos de depuración y codificación extremadamente sencillos, que introducirán al jugador en el mundo de la programación de una forma divertida y entretenida, disponible para los navegadores web modernos.
                 </div>
                 <div>
                     Las batallas consisten en retos de depuración y codificación extremadamente sencillos, que introducirán al jugador en el mundo de la programación de una forma divertida y entretenida, disponible para los navegadores web modernos.

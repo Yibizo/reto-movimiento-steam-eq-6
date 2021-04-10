@@ -1,39 +1,49 @@
 const slidesContainer = document.getElementById('slides');
-const lenImgList = slidesContainer.getElementsByTagName('img').length;
+const lenDivList = slidesContainer.getElementsByTagName('div').length;
+const vid = document.querySelector('#slides div video');
 let index = 1;
 
-function prevNextImg(boolCond) {
+function prevNext(isNext) {
     let prev;
-    if (boolCond) {
+    if (isNext) {
         index++;
-        if (index > lenImgList) {
+        if (index > lenDivList) {
             index = 1;
-            prev = lenImgList;
+            prev = lenDivList;
         }
-        else {
+        else
             prev = index-1;
-        }
     }
     else {
         index--;
         if (index < 1) {
-            index = lenImgList;
+            index = lenDivList;
             prev = 1;
         }
-        else {
+        else
             prev = index+1;
-        }
     }
-    let tempIdx = document.querySelector(`slides img:nth-child(${index})`);
-    let tempPrev = document.querySelector(`slides img:nth-child(${prev})`);
+    let tempPrev = document.querySelector(`#slides div:nth-child(${prev})`);
+    let tempIdx = document.querySelector(`#slides div:nth-child(${index})`);
     tempPrev.style.opacity = '0';
     tempIdx.style.opacity = '1';
+    
+    if (vid.parentElement.style.opacity == '0'){
+        vid.style.pointerEvents = 'none';
+        vid.pause();
+        vid.currentTime = 0;
+    }
+    else if (vid.parentElement.style.opacity == '1'){
+        vid.style.pointerEvents = 'all';
+    }
 }
 
-function waitNextImg() {
-    setInterval(function(){prevNextImg(true);},10000);
-}
+//function waitNextImg() {
+//    setInterval(function(){prevNextImg(true);},10000);
+//}
 
-function test() {
-    alert('test');
+function getYPosition(){
+    var top  = window.pageYOffset || document.documentElement.scrollTop
+    console.log(top);
+    return top;
 }

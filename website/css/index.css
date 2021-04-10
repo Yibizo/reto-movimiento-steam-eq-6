@@ -24,6 +24,7 @@
     background-color: rgb(41, 41, 41);
     box-shadow: inset 0 0 .15vw rgb(63, 63, 63);
     box-shadow: inset 0 0 .5vw rgb(0, 0, 0);
+    border-radius: 1vw;
 }
 
 /*layout*/
@@ -55,9 +56,11 @@ nav span{
 }
 nav img{
     width: 20vw;
-    height: 5vh;
-    object-fit: cover;
+    height: 6vh;
+    object-fit: contain;
     background-color: rgb(0, 8, 85);
+    border-radius: .5vw;
+    padding: 1vh .5vw;
     transition: all .5s;
 }
 nav a{
@@ -92,7 +95,7 @@ links a:hover{
 }
 .scroll{
     position: absolute;
-    top: -11.5vh;
+    top: -11.1vh;
     opacity: 0;
 }
 
@@ -103,17 +106,45 @@ links a:hover{
     vertical-align: middle;
     box-sizing: border-box;
 }
-#imgList img{
+#slides{
+    position: relative;
+}
+#imgList div{
+    border: 0 solid white;
+}
+#slides div{
     opacity: 0;
     position: absolute;
     width: 100%;
     height: 100%;
-    left: 0%;
-    object-fit: cover;
-    transition: all 1s;
+    transition: all .5s;
 }
-#imgList div{
-    border: 0 solid white;
+#slides img, #slides video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    outline: none;
+}
+#slides video{
+    object-fit: contain;
+}
+#slides text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: inherit;
+    background: none;
+}
+#slides #logo{
+    position: absolute;
+    height: auto;
+    width: auto;
+    background-color: green;
+}
+#slides #subLogo{
+    background-color: red;
 }
 #buttonList{
     border: 0 solid white;
@@ -123,6 +154,7 @@ links a:hover{
     width: 100%;
     justify-content: space-between;
     top: 43%;
+    z-index: 2;
 }
 #buttonList div{
     height: 5vh;
