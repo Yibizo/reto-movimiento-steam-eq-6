@@ -1,6 +1,7 @@
 const slidesContainer = document.getElementById('slides');
 const lenDivList = slidesContainer.getElementsByTagName('div').length;
 const vid = document.querySelector('#slides div video');
+vid.volume = 0.5;
 let index = 1;
 
 function prevNext(isNext) {
@@ -29,6 +30,7 @@ function prevNext(isNext) {
     tempIdx.style.opacity = '1';
     
     if (vid.parentElement.style.opacity == '0'){
+        vid.volume = 0.5;
         vid.style.pointerEvents = 'none';
         vid.pause();
         vid.currentTime = 0;
@@ -37,10 +39,6 @@ function prevNext(isNext) {
         vid.style.pointerEvents = 'all';
     }
 }
-
-//function waitNextImg() {
-//    setInterval(function(){prevNextImg(true);},10000);
-//}
 
 function getYPosition(){
     var top  = window.pageYOffset || document.documentElement.scrollTop

@@ -19,33 +19,32 @@
         <main id="layout">
             <div id="imgList">
                 <p class="scroll" id="scrollImgList">scroll</p>
+                <button id="backButton" onclick="prevNext(false)"><</button>
+                <button id="frontButton" onclick="prevNext(true)">></button>
                 <div id="slides">
-                    <div style="opacity: 1;">
-                        <text class="container">
+                    <div class="slideContainer" style="opacity: 1;">
+                        <text>
                             <img id="logo" src="../images/logo_mainframe_white_text_no_bg.png"/>
-                            <p id="subLogo">minitest</p>
+                            <span id="subLogo">"Enunciado de descripción"</span>
                         </text>
-                        <img src="https://loremflickr.com/600/600">
+                        <img src="https://loremflickr.com/600/600" alt="imagen de pantalla principal">
                     </div>
-                    <div>
-                        <p>test 2</p>
-                        <img src="https://loremflickr.com/599/600">
+                    <div class="slideContainer">
+                        <p>Palabra Clave #1</p>
+                        <img src="https://loremflickr.com/599/600" alt="segunda imagen del juego">
                     </div>
-                    <div>
-                        <p>test 3</p>
-                        <img src="https://loremflickr.com/598/600">
+                    <div class="slideContainer">
+                        <p>Palabra Clave #2</p>
+                        <img src="https://loremflickr.com/598/600" alt="tercera imagen del juego">
                     </div>
-                    <div>
-                        <video src="../videos/those old youtube tutorials.mp4" controls style="pointer-events: none;"></video>
+                    <div class="slideContainer">
+                        <video src="../videos/those old youtube tutorials.mp4" controls style="pointer-events: none;" title="Mainframe Trailer"></video>
                     </div>
-                </div>
-                <div id=buttonList>
-                    <div onclick="prevNext(false)"><</div>
-                    <div onclick="prevNext(true)">></div>
                 </div>
             </div>
             <div id="description">
                 <p class="scroll" id="scrollDescription">scroll</p>
+                <hr>
                 <div class="titleDesc">Descripción General</div>
                 <div>
                     'Into the Mainframe' es un juego de rol en 2,5D, pixelado y por turnos, en el que tú, el jugador, eres absorbido por el ordenador de tu trabajo y tienes que luchar contra los virus que lo infectan. Avanza a través de varios mundos informáticos, mientras luchas contra dichos virus enemigos, con el fin de escapar y liberar tu ordenador del malware malicioso en el camino. 
@@ -63,12 +62,14 @@
             </div>
             <div id="videogame">
                 <p class="scroll" id="scrollVideogame">scroll</p>
+                <hr>
                 <game>
                     videojuego.exe
                 </game>
             </div>
             <div id="dashboard">
                 <p class="scroll" id="scrollDashboard">scroll</p>
+                <hr>
                 <grid>
                     <data id="one">Tabla de Posiciones</data>
                     <data id="two">Nivel al que se llegó</data>
@@ -78,6 +79,8 @@
                     <data id="six">Comparación de tiempo con problemas de misma dificultad</data>
                 </grid>
             </div>
+            <hr>
+            <hr>
             <footer>&copy Copyright 2021 Dream Team: into-the-mainframe.com</footer>
 
             <script src="../js/index.js"></script>
