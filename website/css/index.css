@@ -187,16 +187,16 @@ links a:hover{
     height: auto;
     text-align: justify;
     font-size: 1.3vw;
-    line-height: 4.5vh;
+    line-height: 5vh;
 }
 .titleDesc{
     font-size: 3vw !important;
     font-weight: bold;
     width: 100%;
 }
-#description div:nth-child(2){
+#description div:nth-child(3){
     
-    padding-top: 4vh;
+    padding-top: 8vh;
 }
 
 /*videogame*/
