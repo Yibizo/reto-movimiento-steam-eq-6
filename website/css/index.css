@@ -35,7 +35,7 @@
     border-top: .05em solid white;
     border-bottom: .05em solid white;
     */
-    height: 91vh;
+    height: 88.5vh;
 }
 
 /*navbar*/
@@ -119,9 +119,17 @@ links a:hover{
     width: 2.5%;
     outline: none;
     font-weight: bold;
+    border: .05em solid white;
+    border-top: 0 solid white;
+    border-bottom: 0 solid white;
+    background-color: rgb(15, 15, 15);
 }
 #backButton:hover, #frontButton:hover{
     cursor: pointer;
+    background-color: rgb(24, 24, 24);
+}
+#backButton:active, #frontButton:active{
+    background-color: rgb(31, 31, 31);
 }
 #backButton{
     left: 0;

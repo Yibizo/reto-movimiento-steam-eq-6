@@ -1,7 +1,7 @@
 const slidesContainer = document.getElementById('slides');
 const lenDivList = slidesContainer.getElementsByTagName('div').length;
 const vid = document.querySelector('#slides div video');
-vid.volume = 0.5;
+vid.volume = 0.3;
 let index = 1;
 
 function prevNext(isNext) {
@@ -30,7 +30,7 @@ function prevNext(isNext) {
     tempIdx.style.opacity = '1';
     
     if (vid.parentElement.style.opacity == '0'){
-        vid.volume = 0.5;
+        vid.volume = 0.3;
         vid.style.pointerEvents = 'none';
         vid.pause();
         vid.currentTime = 0;
