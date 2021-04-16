@@ -83,13 +83,15 @@ The main objective of the game is to exit every world by battling a boss in the 
 
 Player can move around the overworld in order to explore, with certain sections triggering random encounters with enemies. During the overworld, the player can encounter NPC's that have dialogue, as well as rooms with objects that work in union as a puzzle.
 
-No enemies can be seen in the overworld, thus no enemy behaviour can be found in the overworld. During combat, however, enemies	choose at random from a list of attacks. 
+No enemies can be seen in the overworld, thus no enemy behaviour can be found in the overworld. During combat, however, enemies attack depending on whether the player answered the prompt correctly or not. 
 
 The player, when entering combat, is given a console prompt where they can solve the given coding problem, adjusting its difficulty according to how far along the player is in the game. During the display of the timed terminal, the player can answer incorrectly and let the timer run out, thus recieving damage, or answer correctly to deal damage.
 
+These questions consist of simple, introductory programming questions that mainly involve math and program logic, enforcing the player's critical thinking.
+
 If the players health points reach zero, they die and they reload to previous save. But if the enemy's health points run out, they die and the player recieves experience points, thus advancing in level. 
 
-With all of this said, the main mechanic consists of replacing simple turn based combat with easy and time based debugging challenges.
+With all of this said, the main mechanic consists of replacing simple turn based combat with easy and time based debugging challenges that will introduce the player to programming in general.
 
 # Level Design
 
