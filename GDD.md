@@ -203,31 +203,31 @@ With all of this said, the main mechanic consists of replacing simple turn based
 ```
 
 ## Main Character:</br>
-![alt text](videogame/Art/FinalArt/Character/Gum%20Bot%20sprites.png?raw=true)
+![alt text](videogame/Assets/Art/FinalArt/Character/Gum%20Bot%20sprites.png?raw=true)
 
 
 ## Tileset:</br>
-![alt text](videogame/Art/FinalArt/Tileset/scifitiles.png?raw=true)
+![alt text](videogame/Assets/Art/FinalArt/Tileset/scifitiles.png?raw=true)
 
 
 ## Enemies:</br>
-![alt text](videogame/Art/FinalArt/Enemies/Zapper/attack.png?raw=true)
-![alt text](videogame/Art/FinalArt/Enemies/Zapper/damaged%20and%20death.png?raw=true)
-![alt text](videogame/Art/FinalArt/Enemies/Zapper/wake.png?raw=true)
-![alt text](videogame/Art/FinalArt/Enemies/BallChain/attack.png?raw=true)
-![alt text](videogame/Art/FinalArt/Enemies/BallChain/charge.png?raw=true)
-![alt text](videogame/Art/FinalArt/Enemies/BallChain/death.png?raw=true)
-![alt text](videogame/Art/FinalArt/Enemies/ToasterBot/all.png?raw=true)
+![alt text](videogame/Assets/Art/FinalArt/Enemies/Zapper/attack.png?raw=true)
+![alt text](videogame/Assets/Art/FinalArt/Enemies/Zapper/damaged%20and%20death.png?raw=true)
+![alt text](videogame/Assets/Art/FinalArt/Enemies/Zapper/wake.png?raw=true)
+![alt text](videogame/Assets/Art/FinalArt/Enemies/BallChain/attack.png?raw=true)
+![alt text](videogame/Assets/Art/FinalArt/Enemies/BallChain/charge.png?raw=true)
+![alt text](videogame/Assets/Art/FinalArt/Enemies/BallChain/death.png?raw=true)
+![alt text](videogame/Assets/Art/FinalArt/Enemies/ToasterBot/all.png?raw=true)
 
 
 ## Demo Layout:</br>
-![alt text](videogame/Art/Preview/tutorial_area.PNG?raw=true)
+![alt text](videogame/Assets/Art/Preview/tutorial_area.PNG?raw=true)
 
 
 ## Battle System:</br>
-![alt text](videogame/Art/Preview/battle_system_1.PNG?raw=true)</br></br></br>
-![alt text](videogame/Art/Preview/battle_system_2.PNG?raw=true)</br></br></br>
-![alt text](videogame/Art/Preview/battle_system_3.PNG?raw=true)</br>
+![alt text](videogame/Assets/Art/Preview/battle_system_1.PNG?raw=true)</br></br></br>
+![alt text](videogame/Assets/Art/Preview/battle_system_2.PNG?raw=true)</br></br></br>
+![alt text](videogame/Assets/Art/Preview/battle_system_3.PNG?raw=true)</br>
 
 # Sounds/Music
  
