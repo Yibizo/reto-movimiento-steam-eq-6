@@ -1,4 +1,4 @@
-<img src="videogame/Art/FinalArt/Logo/tec_logo_2.png" width="50"/><img src="videogame/Art/FinalArt/Logo/logo_mainframe_white_text.png" width="550">
+<img src="logos/tec_logo_2.png" width="50"/><img src="logos/logo_mainframe_white_text.png" width="550">
 > Game Design Document
 
 # Dream Team
