@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc78a1ba7292ac4db04db7d757df17c, type: 3}
+  m_Name: Z-Virus
+  m_EditorClassIdentifier: 
+  name: Z-Virus
+  problems:
+  - {fileID: 11400000, guid: 1d44d9804a395e6449b43dde2a49122e, type: 2}
+  - {fileID: 11400000, guid: 4404542956011a040baaa255eb5f5f5c, type: 2}
+  - {fileID: 11400000, guid: 3de7e634d43cbe44a93672443e7cb537, type: 2}
+  - {fileID: 11400000, guid: 2695515fcb0a96948840042c49adf424, type: 2}
+  - {fileID: 11400000, guid: 6b618eeae3901674c9a73de6acbda494, type: 2}
+  - {fileID: 11400000, guid: 9e9c0e248f9f6034785aa2311768b4c7, type: 2}
+  - {fileID: 11400000, guid: a237bef7b6e29cd4ca5055f6a5dc70aa, type: 2}
+  description: Multipartite virus or M-Virus is a virus that can infect the entire
+    system spreading unauthorized actions on your operating system, folders and programs.
+  frontSprite: {fileID: 4700665213289682776, guid: 456d61ec07ffb834c9b992ac57514e0d,
+    type: 3}
+  type: 0
+  maxHp: 60
+  attack: 40
+  defense: 40
+  speed: 40
+  xpYield: 70
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 56a25c87b2dd2ca4199da0d3fb2ad1df, type: 2}
+    level: 1

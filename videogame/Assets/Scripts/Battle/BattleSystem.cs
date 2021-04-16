@@ -34,7 +34,7 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] BattleAnimation consoleAnim;
     [SerializeField] MoveBase move;
 
-    public event Action<bool> OnBattleEnd;
+    public event Action<bool, bool> OnBattleEnd;
 
     string correctAnswer;
     
@@ -101,7 +101,7 @@ public class BattleSystem : MonoBehaviour
     void BattleOver(bool won)
     {
         state = BattleState.BattleOver;
-        OnBattleEnd(won);
+        OnBattleEnd(won, false);
     }
 
     //move across fight and run options, highlight selected option, and perform functions based on selection
@@ -211,6 +211,15 @@ public class BattleSystem : MonoBehaviour
         if (isFainted)
         {
             //XP Gain
+
+            //---------------------------------------
+            if (enemyUnit.Program.Base.Name == "Boss-Virus")
+            {
+                OnBattleEnd(true, true);
+            }
+            //---------------------------------------
+
+
             int xpYield = enemyUnit.Program.Base.XpYield;
             int enemyLevel = enemyUnit.Program.Level;
 

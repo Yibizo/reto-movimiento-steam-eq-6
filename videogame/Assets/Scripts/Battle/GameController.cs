@@ -25,6 +25,8 @@ public class GameController : MonoBehaviour
     [SerializeField] Camera worldCamera;
     Fader fader;
     [SerializeField] Dialog gameOverDialog;
+    [SerializeField] Dialog StartGameDialog;
+    [SerializeField] Dialog winGameDialog;
     bool gameOver = false;
 
     public static GameController Instance { get; private set; }
@@ -36,6 +38,7 @@ public class GameController : MonoBehaviour
     //gets called before game object is enabled, where all game states are added accordingly, as well as the fader and an instance of itself
     private void Start()
     {
+        StartCoroutine(DialogManager.Instance.ShowDialog(StartGameDialog));
         fader = FindObjectOfType<Fader>();
 
         Instance = this;
@@ -88,21 +91,32 @@ public class GameController : MonoBehaviour
     //end battle and change state depending on if the player won or not
     //if the player won, change game state to freeroam and activate its world camera, deactivating the battle system as well
     //else, change game state to game over screen, where the coroutine for game over is started
-    void EndBattle(bool won)
+    void EndBattle(bool won, bool winGame)
     {
-        if (won)
+        
+        if (won && !winGame)
         {
             state = GameState.FreeRoam;
             battleSystem.gameObject.SetActive(false);
             worldCamera.gameObject.SetActive(true);
         }
-        else if (!won)
+        else if (!won && !winGame)
         {
             state = GameState.GameOver;
             gameOver = true;
             battleSystem.gameObject.SetActive(false);
             worldCamera.gameObject.SetActive(true);
-            StartCoroutine(GameOver());
+            StartCoroutine(GameOver(false));
+
+        }
+        else if (won && winGame)
+        {
+            
+            state = GameState.GameOver;
+            gameOver = true;
+            battleSystem.gameObject.SetActive(false);
+            worldCamera.gameObject.SetActive(true);
+            StartCoroutine(GameOver(true));
 
         }
     }
@@ -125,12 +139,20 @@ public class GameController : MonoBehaviour
     }
 
     //show game over black screen and dialog text
-    IEnumerator GameOver()
+    IEnumerator GameOver(bool winGame)
     {
-        
-        yield return fader.FadeIn(2f);
-        yield return new WaitForSeconds(1f);
-        yield return DialogManager.Instance.ShowDialog(gameOverDialog);
+        if (!winGame)
+        {
+            yield return fader.FadeIn(2f);
+            yield return new WaitForSeconds(1f);
+            yield return DialogManager.Instance.ShowDialog(gameOverDialog);
+        }
+        else if (winGame)
+        {
+            yield return fader.FadeIn(2f);
+            yield return new WaitForSeconds(1f);
+            yield return DialogManager.Instance.ShowDialog(winGameDialog);
+        }
         
     }
 }
