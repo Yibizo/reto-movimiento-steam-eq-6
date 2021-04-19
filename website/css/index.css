@@ -219,14 +219,13 @@ game{
 grid{
     display: grid;
     height: 100%;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: .2em .2em;
     padding: .2em;
     grid-template-areas: 
-    "one two four four"
-    "one three five five"
-    "one six six six";
+    "one two"
+    "three four";
 }
 grid data{
     padding: 1em;
@@ -244,12 +243,6 @@ grid data{
 }
 #four{
     grid-area: four;
-}
-#five{
-    grid-area: five;
-}
-#six{
-    grid-area: six;
 }
 
 /*bottom*/
