@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Into The Mainframe</title>
         <link rel="stylesheet" href="../css/index.css">
+        <script src="../build/build 3/Build/UnityLoader.js"></script>
+        <script>
+            UnityLoader.instantiate("unityContainer", "../build/build 3/Build/build 3.json");
+        </script>
     </head>
     <body>
         <nav>
@@ -56,19 +60,34 @@
                 <div>
                     The battles consist of extremely simple debugging and coding challenges, which will introduce the player to the world of programming in a fun and entertaining way, available for modern web browsers.
                 </div>
-                <div class="titleDesc">Mecánicas</div>
+                <div class="titleDesc">Mechanics</div>
                 <div>
                     The main objective of the game is to exit every world by battling a boss in the end of said world, and in the process proving the player's coding skills and critical thinking.
                 </div>
                 <div>
                     The player can move around the overworld in order to explore, with certain sections triggering random encounters with enemies. During the overworld, the player can encounter NPC's that have dialogue, as well as rooms with objects that work in union as a puzzle.
+                </div>
             </div>
             <div id="videogame">
                 <p class="scroll" id="scrollVideogame">scroll</p>
                 <hr>
-                <game>
-                    videogame.exe
-                </game>
+                <div>
+                    <div id="leftText">
+                        <div class="title">Keyboard Controls</div>
+                        <div><subtitle>Movement:</subtitle> <br>use the arrow keys to move and interacte with the menus</div>
+                        <div><subtitle>Interact:</subtitle> <br>press 'z' to interact with elements in the overworld and during combat</div>
+                        <div><subtitle>Activate terminal:</subtitle> <br>press 'Tab' to activate terminal writing (only during combat)</div>
+                        <div class="last"><subtitle>Submit answer:</subtitle> <br>press 'Enter' when your answer in the terminal is ready to be submitted (only during combat)</div>
+                    </div>
+                    <div id="rightText">
+                        <div class="title">Additional Resources</div>
+                        <div><subtitle>What is Python?</subtitle> <br>To learn more about the Python programming language:<a href="https://www.python.org/about/" target="_blank">www.python.org</a></div>
+                        <div><subtitle>Operators:</subtitle> <br>To learn more about operators used in the first area:<a href="https://www.w3schools.com/python/python_operators.asp" target="_blank">www.w3schools.com</a></div>
+                        <div><subtitle>If conditions:</subtitle> <br>To learn more about if conditions used in the second area:<a href="https://www.w3schools.com/python/python_conditions.asp" target="_blank">www.w3schools.com</a></div>
+                        <div class="last"><subtitle>Loops conditions:</subtitle> <br>To learn more about loops used in the third area:<a href="https://www.w3schools.com/python/python_for_loops.asp" target="_blank">www.w3schools.com</a></div>
+                    </div>
+                    <div id="unityContainer"></div>
+                </div>
             </div>
             <div id="dashboard">
                 <p class="scroll" id="scrollDashboard">scroll</p>
@@ -76,8 +95,7 @@
                 <grid>
                     <data id="one">Level reached</data>
                     <data id="two">Area reached</data>
-                    <data id="three">Defeated enemies per area</data>
-                    <data id="four">Solved problems per area</data>
+                    <data id="three">Solved problems per area</data>
                 </grid>
             </div>
             <hr>

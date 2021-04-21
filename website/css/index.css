@@ -207,11 +207,66 @@ links a:hover{
 }
 
 /*videogame*/
-game{
+#videogame div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#leftText, #rightText{
     position: absolute;
-    padding: 2em;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20%;
+    border: .05em solid white;
+}
+#leftText div, #rightText div{
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-align: justify;
+    font-size: 1vw;
+}
+#rightText div a{
+    font-size: 1vw;
+    padding-top: 2vh;
+    text-decoration: none;
+    border-bottom: .1em solid rgba(255, 255, 255, 0);
+}
+#rightText div a:hover{
+    color: rgb(67, 171, 255);
+    border-bottom: .1em solid rgb(67, 171, 255);
+    cursor: pointer;
+}
+.last{
+    padding-bottom: 3vh !important;
+}
+#leftText .title, #rightText .title{
+    font-size: 2vw;
     text-align: center;
+    padding-bottom: 0;
+    font-weight: bold;
+}
+#leftText subtitle, #rightText subtitle{
+    width: 100%;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+#leftText{
+    left: 0;
+}
+#rightText{
+    right: 0;
+}
+#unityContainer{
+    padding: 2vw !important;
+    width: 53.33vw !important;
+    height: 40vw !important;
+    margin: auto !important;
+    max-height: 80vh !important;
+    max-width: 1024px !important;
 }
 
 /*dashboard*/
@@ -224,7 +279,7 @@ grid{
     padding: .2em;
     grid-template-areas: 
     "one two"
-    "three four";
+    "three three";
 }
 grid data{
     padding: 1em;
@@ -239,9 +294,6 @@ grid data{
 }
 #three{
     grid-area: three;
-}
-#four{
-    grid-area: four;
 }
 
 /*bottom*/
