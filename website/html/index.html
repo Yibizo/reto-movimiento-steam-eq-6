@@ -93,9 +93,21 @@
                 <p class="scroll" id="scrollDashboard">scroll</p>
                 <hr>
                 <grid>
-                    <data id="one">Level reached</data>
-                    <data id="two">Area reached</data>
-                    <data id="three">Solved problems per area</data>
+                    <data id="one">Level reached
+                        <button id="cbutton" onclick="printUsersLevel()">Get All Users (Scroll Down, You can also scroll the users to see more)</button>
+                        <br>
+                        <ul id="level-list"></ul>
+                    </data>
+                    <data id="two">Area reached
+                        <button id="cbutton" onclick="printUsersArea()">Get All Users (Scroll Down, You can also scroll the users to see more)</button>
+                        <br>
+                        <ul id="area-list"></ul>
+                    </data>
+                    <data id="three">Solved problems per area
+                        <button id="cbutton" onclick="printUsersProblem()">Get All Users (Scroll Down, You can also scroll the users to see more)</button>
+                        <br>
+                        <ul id="problem-list"></ul>
+                    </data>
                 </grid>
             </div>
             <hr>

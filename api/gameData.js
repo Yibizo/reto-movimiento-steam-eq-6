@@ -42,6 +42,23 @@ app.get("/public/users/:id",(req, res) => {
 
 });*/
 
+app.get("/api/users",(req, res) => 
+{
+    let connection = connectToDB();
+    connection.connect();
+
+	const q = "SELECT * FROM game_data";
+
+	connection.query(q, (err, results) => {
+		if (results.length > 0){
+			res.json(results)
+		}
+		else{
+			res.send("No users found")
+		}
+	})
+});
+
 app.post('/api/initial', (request, response)=>{
 
     try{

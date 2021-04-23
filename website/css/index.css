@@ -295,6 +295,27 @@ grid data{
     grid-area: three;
 }
 
+#level-list{
+    list-style-type: none;
+    overflow: scroll;
+    max-height: 30vh;
+    overflow-x: hidden;
+}
+
+#area-list{
+    list-style-type: none;
+    overflow: scroll;
+    max-height: 30vh;
+    overflow-x: hidden;
+}
+
+#problem-list{
+    list-style-type: none;
+    overflow: scroll;
+    max-height: 30vh;
+    overflow-x: hidden;
+}
+
 /*bottom*/
 footer{
     padding: 1em;
