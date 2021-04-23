@@ -23,38 +23,6 @@ function connectToDB()
 //app.get('/', (req, res) => {
 //	res.redirect('/api/gamedata');
 //});
-
-app.get('/api/last', (request, response)=>{
-
-    try{
-        console.log('Request data:', request.body);
-        let connection = connectToDB();
-        connection.connect();
-        // Conveniently, the names of the fields match the names of the database columns, and we can insert the data as follows:
-        
-        const q = `SELECT MAX(user_id) FROM game_data`;
-
-        const query = connection.query(q ,(error, result, fields)=>{
-
-            // If there are no errors, we send a message back to unity that the data was inserted correctly.
-            if(error)
-                console.log(error);
-            else
-                response.send(result)
-        });
-
-        // Log everything in the server console.
-        console.log(query.sql);
-        connection.end();
-    }
-    catch(error)
-    {
-        console.log(error);
-        connection.end();
-        response.json(error);
-    }
-});
-
 //SELECT MAX(id) FROM mytable
 
 /* Getting a user from ID
