@@ -323,3 +323,10 @@ footer{
     height: 10vh;
     text-align: center;
 }
+
+canvas{
+
+    height: 70vh !important;
+    display: none;
+  
+  }

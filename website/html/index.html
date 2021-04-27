@@ -7,6 +7,7 @@
         <title>Into The Mainframe</title>
         <link rel="stylesheet" href="../css/index.css">
         <script src="../build/build 4/Build/UnityLoader.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
         <script>
             UnityLoader.instantiate("unityContainer", "../build/build 4/Build/build 4.json");
         </script>
@@ -94,19 +95,23 @@
                 <hr>
                 <grid>
                     <data id="one">Level reached
-                        <button id="cbutton" onclick="printUsersLevel()">Get All Users (Scroll Down, You can also scroll the users to see more)</button>
+                        <br>
+                        <button id="cbutton" onclick="printUsersLevel()">Get All Player Levels </button>
                         <br>
                         <ul id="level-list"></ul>
                     </data>
                     <data id="two">Area reached
-                        <button id="cbutton" onclick="printUsersArea()">Get All Users (Scroll Down, You can also scroll the users to see more)</button>
+                        <br>
+                        <button id="cbutton" onclick="printUsersArea()">Get All Player Areas Reached </button>
                         <br>
                         <ul id="area-list"></ul>
                     </data>
                     <data id="three">Solved problems per area
-                        <button id="cbutton" onclick="printUsersProblem()">Get All Users (Scroll Down, You can also scroll the users to see more)</button>
+                        <br>
+                        <button id="cbutton" onclick="printUsersProblem()">Get Success Rate per Area chart</button>
                         <br>
                         <ul id="problem-list"></ul>
+                        <canvas id="myChart"></canvas>
                     </data>
                 </grid>
             </div>
