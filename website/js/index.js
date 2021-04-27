@@ -54,32 +54,60 @@ async function printUsersLevel() {
     if(userlist == temp){return 0}
     else{
         userListElement.innerHTML = "";
+
+        var userElement = document.createElement("table")
+        userElement.className = "user"
+
+        const userRow1 = document.createElement("tr");
+        const userRow11 = document.createElement("th");
+        userRow11.innerText = "Player";
+        const userRow12 = document.createElement("th");
+        userRow12.innerText = "Level";
+
+        userRow1.appendChild(userRow11);
+        userRow1.appendChild(userRow12);
+
+        userElement.appendChild(userRow1)
         for(let i = 0; i < userlist.length; i++){
-            const userElement = document.createElement("li")
+            
+            /*const userElement = document.createElement("TABLE")
             userElement.className = "user"
 
-            const idElement = document.createElement("span");
-            idElement.innerText = "Player: " + userlist[i].user_id + " |";
-            const levelElement = document.createElement("span");
-            levelElement.innerText = " Level: " + userlist[i].level + " |";
-            /*const areaElement = document.createElement("span");
-            areaElement.innerText = " Area_ID: " + userlist[i].area_id + " |";
-            const PA1Element = document.createElement("span");
+            const userRow1 = document.createElement("tr");
+            const userRow11 = document.createElement("th");
+            userRow11.innerText = "Player";
+            const userRow12 = document.createElement("th");
+            userRow11.innerText = "Area ID";
+            
+
+            userRow1.appendChild(userRow11);
+            userRow1.appendChild(userRow12);*/
+
+            const userRows = document.createElement("tr");
+
+
+            const idElement = document.createElement("td");
+            idElement.innerText = userlist[i].user_id;
+            /*const levelElement = document.createElement("span");
+            levelElement.innerText = " Level: " + userlist[i].level + " |";*/
+            const areaElement = document.createElement("td");
+            areaElement.innerText = userlist[i].level;
+            /*const PA1Element = document.createElement("span");
             PA1Element.innerText = " Problems_Area1: " + userlist[i].problems_a1 + " |";
             const PA2Element = document.createElement("span");
             PA2Element.innerText = " Problems_Area2: " + userlist[i].problems_a2 + " |";
             const PA3Element = document.createElement("span");
             PA3Element.innerText = " Problems_Area3: " + userlist[i].problems_a3 + " |";*/
-    
-            userElement.appendChild(idElement);
-            userElement.appendChild(levelElement);
-            /*userElement.appendChild(areaElement);
-            userElement.appendChild(PA1Element);
+            
+            userRows.appendChild(idElement);
+            /*userElement.appendChild(levelElement);*/
+            userRows.appendChild(areaElement);
+            /*userElement.appendChild(PA1Element);
             userElement.appendChild(PA2Element);
             userElement.appendChild(PA3Element);*/
-
-            userListElement.appendChild(userElement);
+            userElement.appendChild(userRows)
         } }
+        userListElement.appendChild(userElement);
         temp = userlist
 }
 
@@ -91,16 +119,43 @@ async function printUsersArea() {
     if(userlist == temp){return 0}
     else{
         userListElement.innerHTML = "";
+        var userElement = document.createElement("table")
+        userElement.className = "user"
+
+        const userRow1 = document.createElement("tr");
+        const userRow11 = document.createElement("th");
+        userRow11.innerText = "Player";
+        const userRow12 = document.createElement("th");
+        userRow12.innerText = "Area ID";
+
+        userRow1.appendChild(userRow11);
+        userRow1.appendChild(userRow12);
+
+        userElement.appendChild(userRow1)
         for(let i = 0; i < userlist.length; i++){
-            const userElement = document.createElement("li")
+
+            /*const userElement = document.createElement("TABLE")
             userElement.className = "user"
 
-            const idElement = document.createElement("span");
-            idElement.innerText = "Player: " + userlist[i].user_id + " |";
+            const userRow1 = document.createElement("tr");
+            const userRow11 = document.createElement("th");
+            userRow11.innerText = "Player";
+            const userRow12 = document.createElement("th");
+            userRow11.innerText = "Area ID";
+            
+
+            userRow1.appendChild(userRow11);
+            userRow1.appendChild(userRow12);*/
+
+            const userRows = document.createElement("tr");
+
+
+            const idElement = document.createElement("td");
+            idElement.innerText = userlist[i].user_id;
             /*const levelElement = document.createElement("span");
             levelElement.innerText = " Level: " + userlist[i].level + " |";*/
-            const areaElement = document.createElement("span");
-            areaElement.innerText = " Area Reached: " + userlist[i].area_id + " |";
+            const areaElement = document.createElement("td");
+            areaElement.innerText = userlist[i].area_id;
             /*const PA1Element = document.createElement("span");
             PA1Element.innerText = " Problems_Area1: " + userlist[i].problems_a1 + " |";
             const PA2Element = document.createElement("span");
@@ -108,15 +163,16 @@ async function printUsersArea() {
             const PA3Element = document.createElement("span");
             PA3Element.innerText = " Problems_Area3: " + userlist[i].problems_a3 + " |";*/
             
-            userElement.appendChild(idElement);
+            userRows.appendChild(idElement);
             /*userElement.appendChild(levelElement);*/
-            userElement.appendChild(areaElement);
+            userRows.appendChild(areaElement);
             /*userElement.appendChild(PA1Element);
             userElement.appendChild(PA2Element);
             userElement.appendChild(PA3Element);*/
+            userElement.appendChild(userRows)
 
-            userListElement.appendChild(userElement);
         } }
+        userListElement.appendChild(userElement);
         temp = userlist
 }
 
@@ -198,3 +254,4 @@ var myChart = new Chart(ctx, {
     }
 });
 }
+
