@@ -5,7 +5,7 @@ Authors:
     - Enrique Mondelli (A01379363)
     - José Salgado (A01023661)
 
-Modification Date: 15/04/21
+Modification Date: 27/04/21
 
 Functionality: 
     This script handles how the dialog is being used
