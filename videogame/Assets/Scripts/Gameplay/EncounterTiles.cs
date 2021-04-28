@@ -21,7 +21,7 @@ public class EncounterTiles : MonoBehaviour, IPlayerTriggerable
     public void OnPlayerTriggered(PlayerController player)
     {
         
-        if (UnityEngine.Random.Range(1,101) <= 10)
+        if (UnityEngine.Random.Range(1,101) <= 20)
             {
                 
                 GameController.Instance.StartBattle();

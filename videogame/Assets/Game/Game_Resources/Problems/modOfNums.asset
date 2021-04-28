@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: modOfNums
   m_EditorClassIdentifier: 
   name: modOfNums
-  lvl: 1
+  minLvl: 0
+  maxLvl: 100
   solution: '%'
   description: "def modOfNums (num1 , num2):\r\n\treturn num1 _ num2\r\n\r\nprint(subsOfNums(12
     , 2))\r\n\r\n#must return value of 0"

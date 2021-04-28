@@ -41,6 +41,7 @@ public class BattleDialogBox : MonoBehaviour
         dialogText.text = "";
         foreach (var letter in dialog.ToCharArray())
         {
+            SoundManager.Instance.playSoundEffect(SoundManager.Instance.TextSound);
             dialogText.text += letter;
             yield return new WaitForSeconds(1f/lettersPerSecond);
         }

@@ -25,26 +25,23 @@ public class TerminalBase : MonoBehaviour
     private ProblemBase currProblem;
 
     //set problem according to player unit level and enemy unit program that returns its solution for future check
-    public string SetProblem(int level, Program program)
+    public List<string> SetProblem(int level, List<ProblemBase> problems)
     {
-        problems = program.Base.Problems;
         currProblem = null;
         //set random problem from problems list
         while (currProblem == null)
         {
-            if (problems[Random.Range(0, problems.Count)].Lvl <= level)
-                currProblem = problems[Random.Range(0, problems.Count)];
+            var randProblem = problems[Random.Range(0, problems.Count)];
+            if (randProblem.MinLvl <= level && randProblem.MaxLvl >= level)
+                currProblem = randProblem;
         }
 
         problemText.gameObject.SetActive(true);
         //Set Problem Text
         problemText.text = currProblem.Description;
 
-        return currProblem.Solution;
+        return currProblem.Solutions;
     }
 
-    public void CheckAnswer(string answer)
-    {
-        //Checks if answer is correct
-    }
+    
 }

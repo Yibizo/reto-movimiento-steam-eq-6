@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: subsOfNums
   m_EditorClassIdentifier: 
   name: subsOfNums
-  lvl: 1
+  minLvl: 0
+  maxLvl: 100
   solution: '-'
   description: "def subsOfNums (num1 , num2):\r\n\treturn num1 _ num2\r\n\r\nprint(subsOfNums(1
     , 2))\r\n\r\n#must return value of -1"

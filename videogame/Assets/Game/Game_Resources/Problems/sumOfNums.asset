@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: sumOfNums
   m_EditorClassIdentifier: 
   name: sumOfNums
-  lvl: 1
+  minLvl: 0
+  maxLvl: 100
   solution: +
   description: "def sumOfNums (num1 , num2):\r\n   return num1 _ num2\r\n\r\nprint(sumOfNums(1
     , 2))\r\n\r\n#must return value of 3"

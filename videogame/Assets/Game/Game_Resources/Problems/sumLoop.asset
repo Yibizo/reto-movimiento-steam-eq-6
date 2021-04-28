@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: sumLoop
   m_EditorClassIdentifier: 
   name: sumLoop
-  lvl: 1
+  minLvl: 0
+  maxLvl: 100
   solution: 5
   description: "def sumLoop (num):\n\tsum = 0\r\n\tfor i in range(_):\n\t\tsum +=
     1\t\t\n\treturn sum\t\r\n\nprint(sumLoop(1))\r\n\r\n#must return value of 5"

@@ -23,7 +23,7 @@ public class ProgramBase : ScriptableObject
 
     //set all properties associated with the program base
     [SerializeField] string name;
-    [SerializeField] List<ProblemBase> problems;
+    
 
     [TextArea]
     [SerializeField] string description;
@@ -82,10 +82,6 @@ public class ProgramBase : ScriptableObject
     public List<LearnableMoves> LearnableMoves {
         get { return learnableMoves; }
     }
-    
-    public List<ProblemBase> Problems {
-        get { return problems;}
-    }
 
 }
 
@@ -123,7 +119,6 @@ public enum Stat
     Attack,
     Defense,
     Speed,
-    
 }
 
 

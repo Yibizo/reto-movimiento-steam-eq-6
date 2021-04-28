@@ -56,6 +56,7 @@ public class DialogManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z) && !isTyping)
         {
             ++currentLine;
+            SoundManager.Instance.playSoundEffect(SoundManager.Instance.MenuSelect2);
             //if counter is less than lines, display current dialog line
             //else deactivate dialog box and reset counter
             if (currentLine < dialog.Lines.Count)
@@ -78,6 +79,7 @@ public class DialogManager : MonoBehaviour
         dialogText.text = "";
         foreach (var letter in line.ToCharArray())
         {
+            SoundManager.Instance.playSoundEffect(SoundManager.Instance.TextSound);
             dialogText.text += letter;
             yield return new WaitForSeconds(1f/lettersPerSecond);
         }

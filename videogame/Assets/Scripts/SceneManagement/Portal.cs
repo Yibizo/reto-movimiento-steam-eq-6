@@ -52,7 +52,7 @@ public class Portal : MonoBehaviour, IPlayerTriggerable
 
         yield return fader.FadeIn(0.5f);
 
-        yield return SceneManager.LoadSceneAsync(sceneToLoad);
+        yield return SceneManager.LoadSceneAsync(sceneToLoad+1);
 
         //get portal destination
         //define facing direction and position with spawn point 
@@ -71,4 +71,4 @@ public class Portal : MonoBehaviour, IPlayerTriggerable
 }
 
 //destination indentifiers to be linked with letters
-public enum DestinationIdentifier{A, B, C, D, E}
+public enum DestinationIdentifier{A, B, C, D, E, F, G, H, I, J}

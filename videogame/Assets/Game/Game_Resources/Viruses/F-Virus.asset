@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc78a1ba7292ac4db04db7d757df17c, type: 3}
+  m_Name: F-Virus
+  m_EditorClassIdentifier: 
+  name: F-Virus
+  description: Multipartite virus or M-Virus is a virus that can infect the entire
+    system spreading unauthorized actions on your operating system, folders and programs.
+  frontSprite: {fileID: -4650201370148389193, guid: d045dfbf0656492428331b009c39873f,
+    type: 3}
+  type: 4
+  maxHp: 40
+  attack: 45
+  defense: 40
+  speed: 35
+  xpYield: 55
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 56a25c87b2dd2ca4199da0d3fb2ad1df, type: 2}
+    level: 1

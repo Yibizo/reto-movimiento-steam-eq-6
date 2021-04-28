@@ -19,13 +19,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     //set all properties associated with the player character
-    [SerializeField] Program playerProgram;
-    const float offsetY = 0.3f;
-    
-    public Program PlayerProgram{
-        
-        get { return playerProgram;}
-    }
 
     public float moveSpeed;
     public LayerMask solidObjectsLayer;
@@ -50,6 +43,8 @@ public class PlayerController : MonoBehaviour
     //main update for player controller
     public void HandleUpdate()
     {
+        SoundManager.Instance.normalBackgroundMusic();
+
         //if the player is not moving
         if(!isMoving)
         {
@@ -57,7 +52,7 @@ public class PlayerController : MonoBehaviour
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
 
-            //don't allow horizontal movement
+            //don't allow diagonal movement
             if (input.x != 0) input.y = 0;
 
             //give position properties for the animator, and check whether the player can move to target position

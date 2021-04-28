@@ -36,6 +36,16 @@ public class Program
         }
     }
 
+    public int SuccessRate1 { get; set;}
+    public int SuccessRate2 { get; set;}
+    public int SuccessRate3 { get; set;}
+    public int AreaEncounters1 { get; set;}
+    public int AreaEncounters2 { get; set;}
+    public int AreaEncounters3 { get; set;}
+    public int TotalEncounters1 {get; set;}
+    public int TotalEncounters2 {get; set;}
+    public int TotalEncounters3 {get; set;}
+
     //functions that also set program properties
     public int HP { get; set; }
     public List<Move> Moves { get; set; }
@@ -138,8 +148,5 @@ public class Program
         return false;
     }
 
-    public void OnBattleOver()
-    {
-
-    }
+    
 }

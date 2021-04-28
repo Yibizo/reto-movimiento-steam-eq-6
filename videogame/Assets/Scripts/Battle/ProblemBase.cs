@@ -22,10 +22,13 @@ public class ProblemBase : ScriptableObject
 {
     //set all properties associated with the problem base
     [SerializeField] string name;
-    [SerializeField] int lvl;
-    [SerializeField] string solution;
+    [SerializeField] int minLvl;
+    [SerializeField] int maxLvl;
+    
 
-    [TextArea]
+    [SerializeField] List<string> solutions;
+
+    [TextArea(15,20)]
     [SerializeField] string description;
     
 
@@ -38,12 +41,15 @@ public class ProblemBase : ScriptableObject
         get { return description; }
     }
 
-    public int Lvl {
-        get { return lvl; }
+    public int MinLvl {
+        get { return minLvl; }
+    }
+    public int MaxLvl {
+        get { return maxLvl; }
     }
 
-    public string Solution {
-        get { return solution; }
+    public List<string> Solutions {
+        get { return solutions; }
     }
 
     

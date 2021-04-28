@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: subLoop
   m_EditorClassIdentifier: 
   name: subLoop
-  lvl: 1
+  minLvl: 0
+  maxLvl: 100
   solution: 4
   description: "def subLoop (num):\n\tfor i in range(_):\n\t\tnum -= 1\t\t\n\treturn
     num\t\r\n\nprint(subLoop(10))\r\n\r\n#must return value of 6"

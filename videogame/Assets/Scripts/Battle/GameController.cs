@@ -14,6 +14,8 @@ Functionality:
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 
 public enum GameState { FreeRoam, Battle, Dialog, Paused, GameOver }
@@ -27,17 +29,28 @@ public class GameController : MonoBehaviour
     [SerializeField] Dialog gameOverDialog;
     [SerializeField] Dialog StartGameDialog;
     [SerializeField] Dialog winGameDialog;
+    [SerializeField] List<int> area1Idx;
+    [SerializeField] List<int> area2Idx;
+    [SerializeField] List<int> area3Idx;
     bool gameOver = false;
 
     public static GameController Instance { get; private set; }
+    public List<int> Area1Idx {get {return area1Idx;} }
+    public List<int> Area2Idx {get {return area2Idx;} }
+    public List<int> Area3Idx {get {return area3Idx;} }
 
     GameState state;
 
     GameState prevState;
 
+    wwwFormGameData sendGameData;
+
     //gets called before game object is enabled, where all game states are added accordingly, as well as the fader and an instance of itself
     private void Start()
     {
+        sendGameData = GameObject.Find("GameController").GetComponent<wwwFormGameData>();
+        StartCoroutine(sendGameData.UploadData(1, 1, 0, 0, 0));
+
         StartCoroutine(DialogManager.Instance.ShowDialog(StartGameDialog));
         fader = FindObjectOfType<Fader>();
 
@@ -146,12 +159,21 @@ public class GameController : MonoBehaviour
             yield return fader.FadeIn(2f);
             yield return new WaitForSeconds(1f);
             yield return DialogManager.Instance.ShowDialog(gameOverDialog);
+            
+            yield return new WaitForSeconds(10f);
+            Destroy(GameObject.Find("EssentialObjects(Clone)"));
+            
+            SceneManager.LoadScene(0);
         }
         else if (winGame)
         {
             yield return fader.FadeIn(2f);
             yield return new WaitForSeconds(1f);
             yield return DialogManager.Instance.ShowDialog(winGameDialog);
+            
+            yield return new WaitForSeconds(10f);
+            Destroy(GameObject.Find("EssentialObjects(Clone)"));
+            SceneManager.LoadScene(0);
         }
         
     }

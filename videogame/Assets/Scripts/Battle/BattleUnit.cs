@@ -70,6 +70,7 @@ public class BattleUnit : MonoBehaviour
     public void PlayEnemyHitAnimation()
     {
         var sequence = DOTween.Sequence();
+        SoundManager.Instance.playSoundEffect(SoundManager.Instance.HitSound);
         sequence.Append(image.DOColor(Color.gray, 0.1f));
         sequence.Append(image.DOColor(ogColor, 0.1f));
         sequence.Append(image.DOColor(Color.gray, 0.1f));
@@ -81,6 +82,7 @@ public class BattleUnit : MonoBehaviour
     public void PlayFaintAnimation()
     {
         var sequence = DOTween.Sequence();
+        SoundManager.Instance.playSoundEffect(SoundManager.Instance.FaintSound);
         sequence.Append(image.transform.DOLocalMoveY(ogPos.y - 150f, 0.5f));
         sequence.Join(image.DOFade(0f, 0.5f));
     }

@@ -15,6 +15,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 //set all posibles battle states
@@ -33,10 +34,17 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] InputField inputField;
     [SerializeField] BattleAnimation consoleAnim;
     [SerializeField] MoveBase move;
+    [SerializeField] List<ProblemBase> problems;
+
+    int currentArea;
+    int currentAreaIdx;
+
+    wwwFormGameData sendGameData;
+    
 
     public event Action<bool, bool> OnBattleEnd;
 
-    string correctAnswer;
+    List<string> correctAnswer;
     
     string playerAnswer;
 
@@ -44,6 +52,10 @@ public class BattleSystem : MonoBehaviour
 
     int currentAction = 0;
     int runAttempts;
+    int problemsTotal;
+    int problemsArea1;
+    int problemsArea2;
+    int problemsArea3;
 
     Program wildProgram;
     ProgramParty playerParty;
@@ -54,17 +66,26 @@ public class BattleSystem : MonoBehaviour
         this.wildProgram = wildProgram;
         this.playerParty = playerParty;
         StartCoroutine(SetupBattle());
+        sendGameData = GameObject.Find("GameController").GetComponent<wwwFormGameData>();
     }
 
     //set up all components from enemy and player units
     public IEnumerator SetupBattle()
     {
+        problemsTotal = 0;
         runAttempts = 0;
+        problemsArea1 = 0;
+        problemsArea2 = 0;
+        problemsArea3 = 0;
+
+        SoundManager.Instance.isInCombat = true;
+
+        //Setup all unit in the battle system
         enemyUnit.Setup(wildProgram);
         playerUnit.Setup(playerParty.GetHealthyProgram());
         enemyHud.SetData(enemyUnit.Program);
         playerHud.SetData(playerUnit.Program);
-        
+
         yield return dialogBox.TypeDialog($"A {enemyUnit.Program.Base.Name} has appeared!");
 
         yield return new WaitForSeconds(1f);
@@ -86,6 +107,7 @@ public class BattleSystem : MonoBehaviour
     //update action according to battle state
     public void HandleUpdate()
     {
+        SoundManager.Instance.battleBackgroundMusic(enemyUnit.Program.Base.Name);
         if (state == BattleState.PlayerAction)
         {
             HandleActionSelection();
@@ -101,6 +123,41 @@ public class BattleSystem : MonoBehaviour
     void BattleOver(bool won)
     {
         state = BattleState.BattleOver;
+        //return last level
+        Debug.Log(playerUnit.Program.Level);
+
+        //return last area
+        Debug.Log(currentAreaIdx);
+
+        if (problemsArea1 > 0)
+        {
+            int tempSuccess1 = (int)(((float)(problemsArea1)/(float)(problemsTotal))*100);
+            playerUnit.Program.SuccessRate1 += tempSuccess1;
+            playerUnit.Program.AreaEncounters1++;
+            playerUnit.Program.TotalEncounters1 = (int)((float)(playerUnit.Program.SuccessRate1)/(float)(playerUnit.Program.AreaEncounters1));
+        }
+        else if (problemsArea2 > 0)
+        {
+            int tempSuccess2 = (int)(((float)(problemsArea2)/(float)(problemsTotal))*100);
+            playerUnit.Program.SuccessRate2 += tempSuccess2;
+            playerUnit.Program.AreaEncounters2++;
+            playerUnit.Program.TotalEncounters2 = (int)((float)(playerUnit.Program.SuccessRate2)/(float)(playerUnit.Program.AreaEncounters2));
+        }
+        else if (problemsArea3 > 0)
+        {
+            int tempSuccess3 = (int)(((float)(problemsArea3)/(float)(problemsTotal))*100);
+            playerUnit.Program.SuccessRate3 += tempSuccess3;
+            playerUnit.Program.AreaEncounters3++;
+            playerUnit.Program.TotalEncounters3 = (int)((float)(playerUnit.Program.SuccessRate3)/(float)(playerUnit.Program.AreaEncounters3));
+        }
+
+        //return total success rate per area
+        Debug.Log(playerUnit.Program.TotalEncounters1);
+        Debug.Log(playerUnit.Program.TotalEncounters2);
+        Debug.Log(playerUnit.Program.TotalEncounters3);
+
+        StartCoroutine(sendGameData.UpdateData(playerUnit.Program.Level, currentAreaIdx, playerUnit.Program.TotalEncounters1, playerUnit.Program.TotalEncounters2, playerUnit.Program.TotalEncounters3));
+
         OnBattleEnd(won, false);
     }
 
@@ -110,11 +167,13 @@ public class BattleSystem : MonoBehaviour
         //move across options
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
+            SoundManager.Instance.playSoundEffect(SoundManager.Instance.MenuSelect1);
             if (currentAction < 1)
                 ++currentAction;
         }
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
+            SoundManager.Instance.playSoundEffect(SoundManager.Instance.MenuSelect1);
             if (currentAction > 0)
                 --currentAction;
         }
@@ -125,6 +184,7 @@ public class BattleSystem : MonoBehaviour
         //perform selected action
         if (Input.GetKeyDown(KeyCode.Z) && !dialogBox.IsTyping)
         {
+            SoundManager.Instance.playSoundEffect(SoundManager.Instance.MenuSelect1);
             if (currentAction == 0)
             {
                 //Fight
@@ -158,6 +218,8 @@ public class BattleSystem : MonoBehaviour
         //based on calculation, let the player exit the battle or add a run attempt and perform enemy move
         if (UnityEngine.Random.Range(0, 256) < F || playerUnit.Program.Speed > enemyUnit.Program.Speed)
         {
+            SoundManager.Instance.isInCombat = false;
+            SoundManager.Instance.stopMusic();
             
             yield return dialogBox.TypeDialog("You got away safely...");
             yield return new WaitForSeconds(1f);
@@ -182,8 +244,8 @@ public class BattleSystem : MonoBehaviour
         StartCoroutine(dialogBox.TypeDialog("Solve the problem!"));
         consoleAnim.gameObject.SetActive(false);
         
-        
-        correctAnswer = terminal.SetProblem(playerUnit.Level, enemyUnit.Program);
+        //To be done
+        correctAnswer = terminal.SetProblem(playerUnit.Level, problems);
         
         inputField.gameObject.SetActive(true);
     }
@@ -194,11 +256,29 @@ public class BattleSystem : MonoBehaviour
         state = BattleState.Busy;
         //Correct
         inputField.gameObject.SetActive(false);
+        SoundManager.Instance.playSoundEffect(SoundManager.Instance.CorrectAnswer);
         yield return dialogBox.TypeDialog("Correct!");
         yield return new WaitForSeconds(0.5f);
         yield return dialogBox.TypeDialog("You attack the virus!");
         yield return new WaitForSeconds(1f);
 
+        //add counter to problems of each area
+        currentArea = SceneManager.GetActiveScene().buildIndex-1;
+        if (GameController.Instance.Area1Idx.IndexOf(currentArea) != -1)
+        {
+            currentAreaIdx = 1;
+            problemsArea1++;
+        }
+        else if (GameController.Instance.Area2Idx.IndexOf(currentArea) != -1)
+        {
+            currentAreaIdx = 2;
+            problemsArea2++;
+        }
+        else if (GameController.Instance.Area3Idx.IndexOf(currentArea) != -1)
+        {
+            currentAreaIdx = 3;
+            problemsArea3++;
+        }
 
         enemyUnit.PlayEnemyHitAnimation();
         bool isFainted = enemyUnit.Program.TakeDamage(move, playerUnit.Program);
@@ -210,13 +290,17 @@ public class BattleSystem : MonoBehaviour
         //else continue with player action
         if (isFainted)
         {
+            SoundManager.Instance.isInCombat = false;
+            SoundManager.Instance.stopMusic();
             //XP Gain
 
             //---------------------------------------
-            if (enemyUnit.Program.Base.Name == "Boss-Virus")
+            
+            if (enemyUnit.Program.Base.Name == "Boss3-Virus")
             {
                 OnBattleEnd(true, true);
             }
+            
             //---------------------------------------
 
 
@@ -241,6 +325,7 @@ public class BattleSystem : MonoBehaviour
             {
                 playerHud.SetLevel();
                 playerUnit.Program.CalculateStats(true);
+                SoundManager.Instance.playSoundEffect(SoundManager.Instance.CorrectAnswer);
                 yield return dialogBox.TypeDialog($"{playerUnit.Program.Base.Name} leveled up!");
                 yield return playerHud.SetXpSmooth(true);
             }
@@ -268,6 +353,8 @@ public class BattleSystem : MonoBehaviour
             
         else if (isRunAttempt == true)
             StartCoroutine(dialogBox.TypeDialog("You failed to run away!"));
+
+        SoundManager.Instance.playSoundEffect(SoundManager.Instance.IncorrectAnswer);
             
         inputField.gameObject.SetActive(false);
         terminal.gameObject.SetActive(false);
@@ -289,6 +376,8 @@ public class BattleSystem : MonoBehaviour
         //else continue with player action
         if (isFainted)
         {
+            SoundManager.Instance.isInCombat = false;
+            SoundManager.Instance.stopMusic();
             yield return dialogBox.TypeDialog($"{playerUnit.Program.Base.Name} was defeated!");
             inputField.gameObject.SetActive(false);
             terminal.gameObject.SetActive(false);
@@ -308,16 +397,19 @@ public class BattleSystem : MonoBehaviour
     {
         //use input field
         if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            SoundManager.Instance.playSoundEffect(SoundManager.Instance.MenuSelect2);
             inputField.ActivateInputField();
+        }
 
         //get answer
         if (Input.GetKeyDown(KeyCode.Return))
         {
-    
+            SoundManager.Instance.playSoundEffect(SoundManager.Instance.MenuSelect3);
             playerAnswer = inputField.text;
-            
+            problemsTotal++;
 
-            if (playerAnswer == correctAnswer)
+            if (correctAnswer.Contains(playerAnswer))
             {
                 
                 StartCoroutine(PerformPlayerMove());

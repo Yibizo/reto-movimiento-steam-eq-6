@@ -13,23 +13,15 @@ MonoBehaviour:
   m_Name: Boss-Virus
   m_EditorClassIdentifier: 
   name: Boss-Virus
-  problems:
-  - {fileID: 11400000, guid: 1d44d9804a395e6449b43dde2a49122e, type: 2}
-  - {fileID: 11400000, guid: 4404542956011a040baaa255eb5f5f5c, type: 2}
-  - {fileID: 11400000, guid: 3de7e634d43cbe44a93672443e7cb537, type: 2}
-  - {fileID: 11400000, guid: 2695515fcb0a96948840042c49adf424, type: 2}
-  - {fileID: 11400000, guid: 6b618eeae3901674c9a73de6acbda494, type: 2}
-  - {fileID: 11400000, guid: 9e9c0e248f9f6034785aa2311768b4c7, type: 2}
-  - {fileID: 11400000, guid: a237bef7b6e29cd4ca5055f6a5dc70aa, type: 2}
   description: Boss Virus at the end of map area
   frontSprite: {fileID: 8793639957104055765, guid: bd8df2999a95b0f40937d838a87999e2,
     type: 3}
   type: 2
-  maxHp: 100
-  attack: 70
-  defense: 40
-  speed: 100
-  xpYield: 80
+  maxHp: 60
+  attack: 62
+  defense: 63
+  speed: 60
+  xpYield: 141
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 56a25c87b2dd2ca4199da0d3fb2ad1df, type: 2}
     level: 1

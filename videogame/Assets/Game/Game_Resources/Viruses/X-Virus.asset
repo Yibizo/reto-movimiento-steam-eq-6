@@ -13,24 +13,16 @@ MonoBehaviour:
   m_Name: X-Virus
   m_EditorClassIdentifier: 
   name: X-Virus
-  problems:
-  - {fileID: 11400000, guid: 1d44d9804a395e6449b43dde2a49122e, type: 2}
-  - {fileID: 11400000, guid: 4404542956011a040baaa255eb5f5f5c, type: 2}
-  - {fileID: 11400000, guid: 3de7e634d43cbe44a93672443e7cb537, type: 2}
-  - {fileID: 11400000, guid: 2695515fcb0a96948840042c49adf424, type: 2}
-  - {fileID: 11400000, guid: 6b618eeae3901674c9a73de6acbda494, type: 2}
-  - {fileID: 11400000, guid: 9e9c0e248f9f6034785aa2311768b4c7, type: 2}
-  - {fileID: 11400000, guid: a237bef7b6e29cd4ca5055f6a5dc70aa, type: 2}
   description: Multipartite virus or M-Virus is a virus that can infect the entire
     system spreading unauthorized actions on your operating system, folders and programs.
   frontSprite: {fileID: -8053765748741006230, guid: 5c4a2a038e892b74f9b370d2aa86691e,
     type: 3}
   type: 3
-  maxHp: 30
-  attack: 50
-  defense: 20
-  speed: 70
-  xpYield: 70
+  maxHp: 50
+  attack: 75
+  defense: 85
+  speed: 40
+  xpYield: 93
   learnableMoves:
   - moveBase: {fileID: 11400000, guid: 56a25c87b2dd2ca4199da0d3fb2ad1df, type: 2}
     level: 1
