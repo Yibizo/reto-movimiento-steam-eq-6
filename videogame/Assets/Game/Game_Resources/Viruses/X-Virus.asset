@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc78a1ba7292ac4db04db7d757df17c, type: 3}
+  m_Name: X-Virus
+  m_EditorClassIdentifier: 
+  name: X-Virus
+  description: Multipartite virus or M-Virus is a virus that can infect the entire
+    system spreading unauthorized actions on your operating system, folders and programs.
+  frontSprite: {fileID: -8053765748741006230, guid: 5c4a2a038e892b74f9b370d2aa86691e,
+    type: 3}
+  type: 3
+  maxHp: 50
+  attack: 75
+  defense: 85
+  speed: 40
+  xpYield: 93
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 56a25c87b2dd2ca4199da0d3fb2ad1df, type: 2}
+    level: 1

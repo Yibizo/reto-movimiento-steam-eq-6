@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc78a1ba7292ac4db04db7d757df17c, type: 3}
+  m_Name: Boss2-Virus
+  m_EditorClassIdentifier: 
+  name: Boss2-Virus
+  description: Boss Virus at the end of map area
+  frontSprite: {fileID: 6682772982591665868, guid: 3ddc275f9cb1c1d49b519a842968df7a,
+    type: 3}
+  type: 2
+  maxHp: 58
+  attack: 64
+  defense: 58
+  speed: 65
+  xpYield: 142
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 56a25c87b2dd2ca4199da0d3fb2ad1df, type: 2}
+    level: 1
