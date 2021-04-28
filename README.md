@@ -12,3 +12,5 @@
 - Enrique Mondelli (A01379363)
 - Jorge Cabiedes (A01024053)
 - José Salgado (A01023661)
+
+(zip file in '/videogame/Library/il2cpp_cache/linkresult_8AEE7E30CC630CF1AEC1298A8C684407/build.zip' was too big to upload in its raw state, unzip when attempting to build project)
