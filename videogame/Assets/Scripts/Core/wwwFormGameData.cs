@@ -14,17 +14,6 @@ Functionality:
 using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
-
-    /*    Debug.Log(playerUnit.Program.Level);
-
-        //return last area
-        Debug.Log(currentAreaIdx);
-
-        //return problems solved per area
-        Debug.Log(playerUnit.Program.ProblemsArea1);
-        Debug.Log(playerUnit.Program.ProblemsArea2);
-        Debug.Log(playerUnit.Program.ProblemsArea3);*/
-
         
 public class wwwFormGameData : MonoBehaviour 
 {
