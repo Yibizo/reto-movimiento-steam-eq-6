@@ -1,4 +1,15 @@
-﻿using System.Collections;
+﻿/*
+Authors:
+    - Jorge Cabiedes (A01024053)
+    - Diego Mejía (A01024228)
+    - Enrique Mondelli (A01379363)
+    - José Salgado (A01023661)
+Modification Date: 27/04/21
+Functionality: 
+    This script manages what sounds and music to play across all other scripts
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,6 +17,7 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(AudioSource))]
 public class SoundManager : MonoBehaviour
 {
+    //define sound manager audio clips to use
     [SerializeField] AudioClip musicArea1;
     [SerializeField] AudioClip musicArea2;
     [SerializeField] AudioClip musicArea3;
@@ -22,6 +34,7 @@ public class SoundManager : MonoBehaviour
 
     public bool isInCombat;
 
+    //to be able to get audio clip properties from other scripts
     public AudioClip MusicArea1 {get {return musicArea1;} }
     public AudioClip MusicArea2 {get {return musicArea2;} }
     public AudioClip MusicArea3 {get {return musicArea1;} }
@@ -40,11 +53,13 @@ public class SoundManager : MonoBehaviour
 
     public static SoundManager Instance { get; private set; }
 
+    //instance to use sound manager properties
     private void Awake()
     {
         Instance = this;
     }
 
+    //function to play background music in the freeroam state, and loop it if the music has stopped
     public void normalBackgroundMusic()
     {
         AudioSource audio = GetComponent<AudioSource>();
@@ -82,6 +97,7 @@ public class SoundManager : MonoBehaviour
         }
     }
 
+    //function to play combat music, and play different clips based on what enemy is encountered
     public void battleBackgroundMusic(string programName)
     {
         AudioSource audio = GetComponent<AudioSource>();
@@ -108,6 +124,7 @@ public class SoundManager : MonoBehaviour
         }
     }
 
+    //function to stop all current music
     public void stopMusic()
     {
         AudioSource audio = GetComponent<AudioSource>();
@@ -115,6 +132,7 @@ public class SoundManager : MonoBehaviour
         audio.Stop();
     }
 
+    //function to play a sound effect selected audio clip defined as property 
     public void playSoundEffect(AudioClip soundEffect)
     {
         AudioSource audio = GetComponent<AudioSource>();
