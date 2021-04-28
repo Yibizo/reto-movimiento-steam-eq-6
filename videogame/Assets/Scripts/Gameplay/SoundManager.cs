@@ -4,7 +4,9 @@ Authors:
     - Diego Mejía (A01024228)
     - Enrique Mondelli (A01379363)
     - José Salgado (A01023661)
+    
 Modification Date: 27/04/21
+
 Functionality: 
     This script manages what sounds and music to play across all other scripts
 */
