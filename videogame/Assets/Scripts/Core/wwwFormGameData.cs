@@ -1,4 +1,17 @@
-﻿using UnityEngine;
+﻿/*
+Authors:
+    - Jorge Cabiedes (A01024053)
+    - Diego Mejía (A01024228)
+    - Enrique Mondelli (A01379363)
+    - José Salgado (A01023661)
+    
+Modification Date: 27/04/21
+
+Functionality: 
+    This script is used to put and post data to the database using api endpoint connections
+*/
+
+using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
 
